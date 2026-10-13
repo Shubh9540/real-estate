@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-primary: var(--font-montserrat), sans-serif;
+  --font-heading: var(--font-montserrat), sans-serif;
+
+  /* 4homeless global theme */
+  --color-bg-main: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-bg-light: #ffffff;
+  --color-bg-alt: #fdfaf6;
+  --color-primary: #051024;
+  --color-primary-dark: #020916;
+  --color-primary-light: #132848;
+  --color-secondary: #c49250;
+  --color-accent: #c49250;
+  --color-accent-light: #ddaf6a;
+  --color-text: #4a4a4a;
+  --color-text-light: #6b7280;
+  --color-border: #e7ded1;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
+}

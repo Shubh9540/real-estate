@@ -1,0 +1,2161 @@
+{
+  "common": {
+    "metadata": {
+      "title": "4homeless | Premium Real Estate",
+      "description": "Discover premium properties, trusted real estate guidance and personalized support with 4homeless.",
+      "icon": "/main logo/logo.webp"
+    },
+    "Footer": {
+      "logo": "/main logo/logo.webp",
+      "logoAlt": "4homeless Logo",
+      "logoUrl": "/",
+      "backgroundImage": "/banner/hero_1.webp",
+      "backgroundImageAlt": "Modern luxury home at night",
+      "copyrightText": "© 2026 4homeless. All rights reserved. Powered by Lestow",
+      "description": "We provide trusted real estate solutions for your dream property. Explore the best homes, plots and investments with us.",
+      "quickLinksTitle": "Quick Links",
+      "contactTitle": "Contact Info",
+      "companyTitle": "Company",
+      "socialLinks": [
+        {
+          "id": "social-facebook",
+          "icon": "FaFacebookF",
+          "label": "Facebook",
+          "url": "https://facebook.com"
+        },
+        {
+          "id": "social-x",
+          "icon": "FaXTwitter",
+          "label": "X",
+          "url": "https://x.com"
+        },
+        {
+          "id": "social-instagram",
+          "icon": "FaInstagram",
+          "label": "Instagram",
+          "url": "https://instagram.com"
+        },
+        {
+          "id": "social-linkedin",
+          "icon": "FaLinkedinIn",
+          "label": "LinkedIn",
+          "url": "https://linkedin.com"
+        },
+        {
+          "id": "social-youtube",
+          "icon": "FaYoutube",
+          "label": "YouTube",
+          "url": "https://youtube.com"
+        }
+      ],
+      "quickLinks": [
+        {
+          "id": "quick-buy-property",
+          "label": "Buy Property",
+          "url": "/services/buy-a-home"
+        },
+        {
+          "id": "quick-rent-property",
+          "label": "Rent Property",
+          "url": "/services/rent-a-home"
+        },
+        {
+          "id": "quick-sell-property",
+          "label": "Sell Property",
+          "url": "/services/sell-a-home"
+        },
+        {
+          "id": "quick-new-developments",
+          "label": "New Developments",
+          "url": "/services/new-developments"
+        },
+        {
+          "id": "quick-book-a-visit",
+          "label": "Book A Visit",
+          "url": "/book-a-visit"
+        }
+      ],
+      "companyLinks": [
+        {
+          "id": "company-about",
+          "label": "About Us",
+          "url": "/about"
+        },
+        {
+          "id": "company-property",
+          "label": "Property",
+          "url": "/properties"
+        },
+        {
+          "id": "company-contact",
+          "label": "Contact",
+          "url": "/contact"
+        },
+        {
+          "id": "company-agent",
+          "label": "Find an Agent",
+          "url": "/agents"
+        },
+        {
+          "id": "company-blog",
+          "label": "Our Blog",
+          "url": "/blog"
+        }
+      ],
+      "contactItems": [
+        {
+          "id": "contact-office",
+          "icon": "FaMapMarkerAlt",
+          "title": "Our Office",
+          "value": "123 Main St, NY, USA",
+          "url": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA"
+        },
+        {
+          "id": "contact-phone",
+          "icon": "FaPhoneAlt",
+          "title": "Call Us",
+          "value": "+1 000000000",
+          "url": "tel:+1000000000"
+        },
+        {
+          "id": "contact-email",
+          "icon": "FaEnvelope",
+          "title": "Email Us",
+          "value": "info@xyz.com",
+          "url": "mailto:info@xyz.com"
+        }
+      ]
+    },
+    "notFound": {
+      "code": "404",
+      "title": "Oops! Page Not Found",
+      "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+      "buttonText": "Back to Home",
+      "buttonUrl": "/"
+    },
+    "aboutBreadcrumb": {
+      "title": "About Us",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-about-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-about-current",
+          "label": "About Us"
+        }
+      ]
+    },
+    "propertiesBreadcrumb": {
+      "title": "Our Properties",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-properties-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-properties-current",
+          "label": "Our Properties"
+        }
+      ]
+    },
+    "propertyDetailBreadcrumb": {
+      "title": "Property Detail",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-property-detail-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-property-detail-current",
+          "label": "Property Detail"
+        }
+      ]
+    },
+    "servicesBreadcrumb": {
+      "title": "Our Services",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-services-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-services-current",
+          "label": "Services"
+        }
+      ]
+    },
+    "serviceDetailBreadcrumbs": {
+      "buy-a-home": {
+        "title": "Buy a Home",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-buy-home-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-buy-home-current", "label": "Buy a Home" }
+        ]
+      },
+      "rent-a-home": {
+        "title": "Rent a Home",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-rent-home-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-rent-home-current", "label": "Rent a Home" }
+        ]
+      },
+      "sell-a-home": {
+        "title": "Sell a Home",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-sell-home-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-sell-home-current", "label": "Sell a Home" }
+        ]
+      },
+      "property-investment": {
+        "title": "Invest in Property",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-property-investment-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-property-investment-current", "label": "Invest in Property" }
+        ]
+      },
+      "property-management": {
+        "title": "Property Management",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-property-management-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-property-management-current", "label": "Property Management" }
+        ]
+      },
+      "commercial-properties": {
+        "title": "Commercial Properties",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-commercial-properties-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-commercial-properties-current", "label": "Commercial Properties" }
+        ]
+      },
+      "land-and-plots": {
+        "title": "Land & Plots",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-land-plots-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-land-plots-current", "label": "Land & Plots" }
+        ]
+      },
+      "new-developments": {
+        "title": "New Developments",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-new-developments-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-new-developments-current", "label": "New Developments" }
+        ]
+      },
+      "property-consultation": {
+        "title": "Property Consultation",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-property-consultation-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-property-consultation-current", "label": "Property Consultation" }
+        ]
+      }
+    },
+    "contactBreadcrumb": {
+      "title": "Contact Us",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-contact-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-contact-current",
+          "label": "Contact Us"
+        }
+      ]
+    },
+    "bookVisitBreadcrumb": {
+      "title": "Book a Visit",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-book-visit-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-book-visit-current",
+          "label": "Book a Visit"
+        }
+      ]
+    },
+    "agentsBreadcrumb": {
+      "title": "Our Agents",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-agents-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-agents-current",
+          "label": "Our Agents"
+        }
+      ]
+    },
+    "agentDetailBreadcrumb": {
+      "title": "Agent Detail",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-agent-detail-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-agent-detail-current",
+          "label": "Agent Detail"
+        }
+      ]
+    },
+    "galleryBreadcrumb": {
+      "title": "Gallery",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-gallery-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-gallery-current",
+          "label": "Gallery"
+        }
+      ]
+    },
+    "testimonialsBreadcrumb": {
+      "title": "Testimonials",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-testimonials-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-testimonials-current",
+          "label": "Testimonials"
+        }
+      ]
+    },
+    "blogsBreadcrumb": {
+      "title": "Blogs",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-blogs-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-blogs-current",
+          "label": "Blogs"
+        }
+      ]
+    },
+    "blogDetailBreadcrumbs": {
+      "tips-for-buying-first-home": {
+        "title": "5 Important Tips for Buying Your First Home",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-first-home-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-first-home-current", "label": "5 Important Tips for Buying Your First Home" }
+        ]
+      },
+      "interior-design-trends": {
+        "title": "Top Interior Design Trends for Modern Homes",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-interior-trends-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-interior-trends-current", "label": "Top Interior Design Trends for Modern Homes" }
+        ]
+      },
+      "smart-real-estate-investment": {
+        "title": "Why Real Estate Is a Smart Long-Term Investment",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-smart-investment-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-smart-investment-current", "label": "Why Real Estate Is a Smart Long-Term Investment" }
+        ]
+      },
+      "essential-home-maintenance": {
+        "title": "Essential Home Maintenance Tips for a Long-Lasting Property",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-home-maintenance-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-home-maintenance-current", "label": "Essential Home Maintenance Tips for a Long-Lasting Property" }
+        ]
+      },
+      "real-estate-market-trends": {
+        "title": "Real Estate Market Trends to Watch This Year",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-market-trends-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-market-trends-current", "label": "Real Estate Market Trends to Watch This Year" }
+        ]
+      },
+      "sell-property-faster": {
+        "title": "How to Sell Your Property Faster and at the Best Price",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-sell-faster-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-sell-faster-current", "label": "How to Sell Your Property Faster and at the Best Price" }
+        ]
+      },
+      "choose-property-for-lifestyle": {
+        "title": "Choosing the Right Property for Your Lifestyle",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-property-lifestyle-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-property-lifestyle-current", "label": "Choosing the Right Property for Your Lifestyle" }
+        ]
+      },
+      "small-space-interior-ideas": {
+        "title": "Small Space Interior Design Ideas for Modern Homes",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-small-space-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-small-space-current", "label": "Small Space Interior Design Ideas for Modern Homes" }
+        ]
+      },
+      "latest-real-estate-developments": {
+        "title": "Latest Real Estate Developments and Projects",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-latest-developments-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-latest-developments-current", "label": "Latest Real Estate Developments and Projects" }
+        ]
+      },
+      "complete-rental-guide": {
+        "title": "A Complete Guide to Renting Your Next Home",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-rental-guide-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-rental-guide-current", "label": "A Complete Guide to Renting Your Next Home" }
+        ]
+      },
+      "property-documents-checklist": {
+        "title": "Property Documents Every Buyer Should Verify",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-property-documents-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-property-documents-current", "label": "Property Documents Every Buyer Should Verify" }
+        ]
+      },
+      "improve-home-value": {
+        "title": "Simple Improvements That Increase Your Home's Value",
+        "bgImage": "/main logo/breadcrumb.webp",
+        "paths": [
+          { "id": "breadcrumb-home-value-home", "label": "Home", "url": "/" },
+          { "id": "breadcrumb-home-value-current", "label": "Simple Improvements That Increase Your Home's Value" }
+        ]
+      }
+    }
+  },
+  "categories": {
+    "RealEstate": {
+      "sections": {
+        "TopBar": {
+          "variants": {}
+        },
+        "Header": {
+          "variants": {
+            "FourHomelessHeader1": {
+              "logo": "/main logo/logo.webp",
+              "logoAlt": "4homeless Real Estate",
+              "navLinksLeft": [
+                {
+                  "id": "nl-home",
+                  "label": "Home",
+                  "url": "/"
+                },
+                {
+                  "id": "nl-about",
+                  "label": "About Us",
+                  "url": "/about"
+                },
+                {
+                  "id": "nl-services",
+                  "label": "Services",
+                  "url": "/services"
+                }
+              ],
+              "navLinksRight": [
+                {
+                  "id": "nl-properties",
+                  "label": "Properties",
+                  "url": "/properties"
+                },
+                {
+                  "id": "nl-agents",
+                  "label": "Agents",
+                  "url": "/agents"
+                },
+                {
+                  "id": "nl-gallery",
+                  "label": "Gallery",
+                  "url": "/gallery"
+                },
+                {
+                  "id": "nl-blog",
+                  "label": "Blog",
+                  "url": "/blog"
+                },
+                {
+                  "id": "nl-contact",
+                  "label": "Contact Us",
+                  "url": "/contact"
+                }
+              ],
+              "contactButton": {
+                "text": "Book a Visit",
+                "url": "/book-a-visit"
+              }
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "FourHomelessHero1": {
+              "eyebrow": "Premium Real Estate",
+              "titleLine1": "Your Dream Home",
+              "highlightedTitle": "Awaits Here",
+              "description": "Discover premium properties, modern living spaces and investment opportunities in the best locations.",
+              "image": "/banner/hero_1.webp",
+              "imageAlt": "Modern luxury home with a swimming pool",
+              "primaryButton": {
+                "text": "Contact Us",
+                "url": "/contact",
+                "icon": "FaArrowRight"
+              }
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "FourHomelessAboutUs1": {
+              "subtitle": "About Us",
+              "titleLine1": "Building Better",
+              "titleLine2": "Homes for a Brighter",
+              "highlightedTitle": "Tomorrow.",
+              "description": "At 4homeless, we are committed to helping you find the perfect property that matches your lifestyle and goals. With years of experience in the real estate industry, we provide trusted guidance, quality properties, and personalized support at every step.",
+              "imageMain": "/about/about_main.webp",
+              "imageMainAlt": "Modern luxury home surrounded by landscaped gardens",
+              "imageSecondaryLeft": "/about/about_1.webp",
+              "imageSecondaryLeftAlt": "Bright modern living room with a staircase",
+              "imageSecondaryRight": "/about/about_2.webp",
+              "imageSecondaryRightAlt": "Modern dining room and kitchen interior",
+              "features": [
+                {
+                  "id": "feature-properties",
+                  "icon": "FaHome",
+                  "label": "Wide Range of Properties"
+                },
+                {
+                  "id": "feature-trusted",
+                  "icon": "FaHandshake",
+                  "label": "Trusted by Thousands"
+                },
+                {
+                  "id": "feature-locations",
+                  "icon": "FaMapMarkerAlt",
+                  "label": "Prime Locations"
+                },
+                {
+                  "id": "feature-guidance",
+                  "icon": "FaShieldAlt",
+                  "label": "Expert Guidance & Support"
+                }
+              ],
+              "button": {
+                "text": "About Us",
+                "url": "/about"
+              }
+            }
+          }
+        },
+        "Agents": {
+          "variants": {
+            "FourHomelessAgents1": {
+              "subtitle": "OUR AGENTS",
+              "title1": "Meet Our Expert",
+              "highlightedTitle": "Agents",
+              "description": "Our experienced real estate professionals are here to help you find the perfect property with trusted guidance and personalized support.",
+              "viewAllText": "View All Agents",
+              "viewAllUrl": "/agents",
+              "profileText": "View Profile",
+              "contactText": "Contact",
+              "itemsPerPage": 8,
+              "paginationLabel": "Agent page",
+              "pagination": [
+                { "id": "agent-page-1", "label": "1", "page": 1 },
+                { "id": "agent-page-2", "label": "2", "page": 2 }
+              ],
+              "detailUI": {
+                "title1": "About Our",
+                "highlightedTitle": "Agent",
+                "locationLabel": "Location:",
+                "phoneLabel": "Phone:",
+                "practiceAreaLabel": "Practice Area:",
+                "socialLinks": [
+                  { "id": "agent-social-facebook", "icon": "FaFacebookF", "label": "Facebook", "url": "https://www.facebook.com" },
+                  { "id": "agent-social-twitter", "icon": "FaXTwitter", "label": "X", "url": "https://x.com" },
+                  { "id": "agent-social-linkedin", "icon": "FaLinkedinIn", "label": "LinkedIn", "url": "https://www.linkedin.com" },
+                  { "id": "agent-social-instagram", "icon": "FaInstagram", "label": "Instagram", "url": "https://www.instagram.com" }
+                ],
+                "services": [
+                  { "id": "agent-service-buying", "icon": "FaHome", "title": "Home Buying", "description": "Get expert guidance to find your dream home with the right location, best value and complete support throughout the buying process.", "linkText": "Read More", "url": "/services" },
+                  { "id": "agent-service-selling", "icon": "FaHandshake", "title": "Home Selling", "description": "Maximize the value of your property with our market expertise, strategic marketing and professional selling support.", "linkText": "Read More", "url": "/services" },
+                  { "id": "agent-service-escrow", "icon": "FaFileContract", "title": "Escrow Services", "description": "Ensure a safe, secure and hassle-free transaction with our reliable escrow services and complete transparency.", "linkText": "Read More", "url": "/contact" }
+                ]
+              },
+              "agents": [
+                {
+                  "id": "agent-amit-sharma",
+                  "category": "Residential",
+                  "name": "Amit Sharma",
+                  "role": "Senior Real Estate Agent",
+                  "location": "New Delhi, India",
+                  "locationIcon": "FaMapMarkerAlt",
+                  "image": "/team/1.webp",
+                  "imageAlt": "Amit Sharma, Senior Real Estate Agent",
+                  "stats": [
+                    { "id": "amit-properties", "label": "Properties Sold", "value": "120", "icon": "FaHome" },
+                    { "id": "amit-rating", "label": "Client Rating", "value": "4.9", "icon": "FaRegStar" },
+                    { "id": "amit-listings", "label": "Active Listings", "value": "35", "icon": "FaUserFriends" }
+                  ],
+                  "profileUrl": "/agents/agent-amit-sharma",
+                  "contactUrl": "/contact",
+                  "detail": {
+                    "about": "Amit Sharma is a dedicated and experienced real estate professional with a strong focus on helping clients buy, sell and invest in properties. His client-first approach ensures a smooth, transparent and rewarding real estate experience.",
+                    "address": "123, MG Road, New Delhi, India",
+                    "phone": "+1 00000 00000",
+                    "practiceArea": "Property Seller",
+                    "experience": "With over 8 years of experience in the real estate industry, Amit specializes in residential and luxury properties. His deep market knowledge, strong negotiation skills and attention to detail make him a trusted advisor for every real estate need.",
+                    "closingText": "Amit is passionate about real estate and takes pride in helping clients make informed decisions. He provides honest advice, clear communication and complete support to make the entire process simple and successful."
+                  }
+                },
+                {
+                  "id": "agent-priya-mehta",
+                  "category": "Luxury",
+                  "name": "Priya Mehta",
+                  "role": "Luxury Property Specialist",
+                  "location": "Mumbai, Maharashtra",
+                  "locationIcon": "FaMapMarkerAlt",
+                  "image": "/team/2.webp",
+                  "imageAlt": "Priya Mehta, Luxury Property Specialist",
+                  "stats": [
+                    { "id": "priya-properties", "label": "Properties Sold", "value": "95", "icon": "FaHome" },
+                    { "id": "priya-rating", "label": "Client Rating", "value": "4.8", "icon": "FaRegStar" },
+                    { "id": "priya-listings", "label": "Active Listings", "value": "28", "icon": "FaUserFriends" }
+                  ],
+                  "profileUrl": "/agents/agent-priya-mehta",
+                  "contactUrl": "/contact",
+                  "detail": {
+                    "about": "Priya Mehta helps buyers and investors discover exceptional luxury homes that match their lifestyle and long-term goals. She combines thoughtful service with detailed local market insight.",
+                    "address": "Bandra West, Mumbai, India",
+                    "phone": "+1 00000 00000",
+                    "practiceArea": "Luxury Property Specialist",
+                    "experience": "Priya brings extensive experience in premium apartments, villas and investment residences. Her careful property selection and clear guidance help clients move forward with confidence.",
+                    "closingText": "From the first consultation to the final handover, Priya stays closely involved and makes every step clear, personal and stress-free."
+                  }
+                },
+                {
+                  "id": "agent-rahul-verma",
+                  "category": "Commercial",
+                  "name": "Rahul Verma",
+                  "role": "Commercial Real Estate Expert",
+                  "location": "Bangalore, Karnataka",
+                  "locationIcon": "FaMapMarkerAlt",
+                  "image": "/team/3.webp",
+                  "imageAlt": "Rahul Verma, Commercial Real Estate Expert",
+                  "stats": [
+                    { "id": "rahul-properties", "label": "Properties Sold", "value": "150", "icon": "FaHome" },
+                    { "id": "rahul-rating", "label": "Client Rating", "value": "4.9", "icon": "FaRegStar" },
+                    { "id": "rahul-listings", "label": "Active Listings", "value": "42", "icon": "FaUserFriends" }
+                  ],
+                  "profileUrl": "/agents/agent-rahul-verma",
+                  "contactUrl": "/contact",
+                  "detail": {
+                    "about": "Rahul Verma advises businesses and investors on commercial property opportunities across Bangalore. He is known for practical recommendations and strong transaction management.",
+                    "address": "Whitefield, Bangalore, India",
+                    "phone": "+1 00000 00000",
+                    "practiceArea": "Commercial Property Expert",
+                    "experience": "Rahul has led office, retail and mixed-use property transactions for growing businesses and established investors. He evaluates each opportunity through location, returns and future potential.",
+                    "closingText": "Rahul focuses on building dependable partnerships and delivering commercial property solutions that support each client's business goals."
+                  }
+                },
+                {
+                  "id": "agent-neha-kapoor",
+                  "category": "Investment",
+                  "name": "Neha Kapoor",
+                  "role": "Investment Advisor",
+                  "location": "Hyderabad, India",
+                  "locationIcon": "FaMapMarkerAlt",
+                  "image": "/team/4.webp",
+                  "imageAlt": "Neha Kapoor, Investment Advisor",
+                  "stats": [
+                    { "id": "neha-properties", "label": "Properties Sold", "value": "110", "icon": "FaHome" },
+                    { "id": "neha-rating", "label": "Client Rating", "value": "4.7", "icon": "FaRegStar" },
+                    { "id": "neha-listings", "label": "Active Listings", "value": "30", "icon": "FaUserFriends" }
+                  ],
+                  "profileUrl": "/agents/agent-neha-kapoor",
+                  "contactUrl": "/contact",
+                  "detail": {
+                    "about": "Neha Kapoor supports clients who want to build a balanced real estate portfolio through carefully selected residential and emerging-market investments.",
+                    "address": "Banjara Hills, Hyderabad, India",
+                    "phone": "+1 00000 00000",
+                    "practiceArea": "Property Investment",
+                    "experience": "Neha studies market movement, rental demand and long-term growth to identify reliable opportunities. Her structured approach makes property investing easier to understand.",
+                    "closingText": "Neha believes every investment decision should be backed by clear information, realistic expectations and a strategy built around the client's priorities."
+                  }
+                }
+              ],
+              "additionalAgents": [
+                {
+                  "id": "agent-karan-singh", "category": "New Development", "name": "Karan Singh", "role": "New Development Specialist", "location": "Pune, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/5.webp", "imageAlt": "Karan Singh, New Development Specialist",
+                  "stats": [{ "id": "karan-properties", "label": "Properties Sold", "value": "85", "icon": "FaHome" }, { "id": "karan-rating", "label": "Client Rating", "value": "4.8", "icon": "FaRegStar" }, { "id": "karan-listings", "label": "Active Listings", "value": "25", "icon": "FaUserFriends" }],
+                  "profileUrl": "/agents/agent-karan-singh", "contactUrl": "/contact",
+                  "detail": { "about": "Karan Singh works closely with buyers exploring newly launched and under-construction communities in Pune.", "address": "Baner, Pune, India", "phone": "+1 00000 00000", "practiceArea": "New Developments", "experience": "Karan combines project research, builder coordination and practical buying guidance to help clients choose promising new developments.", "closingText": "He keeps every client informed from project selection through documentation and possession." }
+                },
+                {
+                  "id": "agent-sneha-reddy", "category": "Residential", "name": "Sneha Reddy", "role": "Residential Property Consultant", "location": "Chennai, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/6.webp", "imageAlt": "Sneha Reddy, Residential Property Consultant",
+                  "stats": [{ "id": "sneha-properties", "label": "Properties Sold", "value": "98", "icon": "FaHome" }, { "id": "sneha-rating", "label": "Client Rating", "value": "4.9", "icon": "FaRegStar" }, { "id": "sneha-listings", "label": "Active Listings", "value": "33", "icon": "FaUserFriends" }],
+                  "profileUrl": "/agents/agent-sneha-reddy", "contactUrl": "/contact",
+                  "detail": { "about": "Sneha Reddy helps families find comfortable residential properties in well-connected Chennai neighborhoods.", "address": "Adyar, Chennai, India", "phone": "+1 00000 00000", "practiceArea": "Residential Property", "experience": "Sneha understands the needs of first-time buyers and growing families, offering patient guidance and dependable local knowledge.", "closingText": "Her goal is to turn a complex home search into a simple and reassuring experience." }
+                },
+                {
+                  "id": "agent-vikram-patel", "category": "Rental", "name": "Vikram Patel", "role": "Rental Property Specialist", "location": "Kolkata, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/1.webp", "imageAlt": "Vikram Patel, Rental Property Specialist",
+                  "stats": [{ "id": "vikram-properties", "label": "Properties Sold", "value": "105", "icon": "FaHome" }, { "id": "vikram-rating", "label": "Client Rating", "value": "4.8", "icon": "FaRegStar" }, { "id": "vikram-listings", "label": "Active Listings", "value": "27", "icon": "FaUserFriends" }],
+                  "profileUrl": "/agents/agent-vikram-patel", "contactUrl": "/contact",
+                  "detail": { "about": "Vikram Patel connects tenants and property owners through efficient, transparent rental services.", "address": "Salt Lake, Kolkata, India", "phone": "+1 00000 00000", "practiceArea": "Rental Property", "experience": "Vikram manages rental searches, property visits and documentation with a practical understanding of both tenant and landlord needs.", "closingText": "He values fast communication and fair solutions that create lasting rental relationships." }
+                },
+                {
+                  "id": "agent-anjali-gupta", "category": "Luxury", "name": "Anjali Gupta", "role": "Luxury Home Advisor", "location": "Jaipur, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/2.webp", "imageAlt": "Anjali Gupta, Luxury Home Advisor",
+                  "stats": [{ "id": "anjali-properties", "label": "Properties Sold", "value": "140", "icon": "FaHome" }, { "id": "anjali-rating", "label": "Client Rating", "value": "4.9", "icon": "FaRegStar" }, { "id": "anjali-listings", "label": "Active Listings", "value": "38", "icon": "FaUserFriends" }],
+                  "profileUrl": "/agents/agent-anjali-gupta", "contactUrl": "/contact",
+                  "detail": { "about": "Anjali Gupta curates distinctive luxury homes for clients seeking privacy, design and exceptional locations.", "address": "C-Scheme, Jaipur, India", "phone": "+1 00000 00000", "practiceArea": "Luxury Homes", "experience": "Anjali offers discreet advisory support for premium villas, estates and high-value residences with careful attention to every detail.", "closingText": "She creates a refined property experience shaped around each client's preferences and pace." }
+                },
+                {
+                  "id": "agent-arjun-mehra", "category": "Commercial", "name": "Arjun Mehra", "role": "Commercial Investment Advisor", "location": "Gurgaon, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/3.webp", "imageAlt": "Arjun Mehra, Commercial Investment Advisor",
+                  "stats": [{ "id": "arjun-properties", "label": "Properties Sold", "value": "132", "icon": "FaHome" }, { "id": "arjun-rating", "label": "Client Rating", "value": "4.8", "icon": "FaRegStar" }, { "id": "arjun-listings", "label": "Active Listings", "value": "31", "icon": "FaUserFriends" }],
+                  "profileUrl": "/agents/agent-arjun-mehra", "contactUrl": "/contact",
+                  "detail": { "about": "Arjun Mehra helps investors identify commercial assets with sustainable demand and strong business potential.", "address": "Golf Course Road, Gurgaon, India", "phone": "+1 00000 00000", "practiceArea": "Commercial Investment", "experience": "Arjun evaluates office and retail opportunities through detailed market comparisons and financial planning.", "closingText": "His advice is grounded in research, transparency and a long-term view of investment performance." }
+                },
+                {
+                  "id": "agent-meera-joshi", "category": "Residential", "name": "Meera Joshi", "role": "Home Buying Consultant", "location": "Ahmedabad, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/4.webp", "imageAlt": "Meera Joshi, Home Buying Consultant",
+                  "stats": [{ "id": "meera-properties", "label": "Properties Sold", "value": "90", "icon": "FaHome" }, { "id": "meera-rating", "label": "Client Rating", "value": "4.7", "icon": "FaRegStar" }, { "id": "meera-listings", "label": "Active Listings", "value": "24", "icon": "FaUserFriends" }],
+                  "profileUrl": "/agents/agent-meera-joshi", "contactUrl": "/contact",
+                  "detail": { "about": "Meera Joshi guides homebuyers through property discovery, comparison and confident decision-making.", "address": "Satellite, Ahmedabad, India", "phone": "+1 00000 00000", "practiceArea": "Home Buying", "experience": "Meera combines neighborhood insight with a clear understanding of budgets, amenities and family priorities.", "closingText": "She is committed to helping every buyer find a home that feels right today and remains valuable tomorrow." }
+                },
+                {
+                  "id": "agent-rohan-kapoor", "category": "Investment", "name": "Rohan Kapoor", "role": "Property Portfolio Consultant", "location": "Noida, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/5.webp", "imageAlt": "Rohan Kapoor, Property Portfolio Consultant",
+                  "stats": [{ "id": "rohan-properties", "label": "Properties Sold", "value": "115", "icon": "FaHome" }, { "id": "rohan-rating", "label": "Client Rating", "value": "4.9", "icon": "FaRegStar" }, { "id": "rohan-listings", "label": "Active Listings", "value": "29", "icon": "FaUserFriends" }],
+                  "profileUrl": "/agents/agent-rohan-kapoor", "contactUrl": "/contact",
+                  "detail": { "about": "Rohan Kapoor creates focused property strategies for investors looking for growth, income and diversification.", "address": "Sector 62, Noida, India", "phone": "+1 00000 00000", "practiceArea": "Property Portfolio", "experience": "Rohan reviews market data, property fundamentals and client objectives before recommending suitable investments.", "closingText": "He helps clients make measured decisions and build real estate portfolios with purpose." }
+                },
+                {
+                  "id": "agent-kavya-nair", "category": "Luxury", "name": "Kavya Nair", "role": "Premium Property Advisor", "location": "Kochi, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/6.webp", "imageAlt": "Kavya Nair, Premium Property Advisor",
+                  "stats": [{ "id": "kavya-properties", "label": "Properties Sold", "value": "88", "icon": "FaHome" }, { "id": "kavya-rating", "label": "Client Rating", "value": "4.8", "icon": "FaRegStar" }, { "id": "kavya-listings", "label": "Active Listings", "value": "22", "icon": "FaUserFriends" }],
+                  "profileUrl": "/agents/agent-kavya-nair", "contactUrl": "/contact",
+                  "detail": { "about": "Kavya Nair advises clients on premium waterfront homes, apartments and distinctive residential opportunities in Kochi.", "address": "Marine Drive, Kochi, India", "phone": "+1 00000 00000", "practiceArea": "Premium Property", "experience": "Kavya is valued for her calm communication, careful property curation and understanding of premium buyer expectations.", "closingText": "She delivers a personal, polished experience that keeps every important detail under control." }
+                }
+              ]
+            }
+          }
+        },
+        "Gallery": {
+          "variants": {
+            "FourHomelessGallery1": {
+              "subtitle": "GALLERY",
+              "title1": "Our Property",
+              "highlightedTitle": "Gallery",
+              "description": "Explore our collection of beautiful properties, modern interiors and premium amenities designed to match your lifestyle.",
+              "openImageLabel": "Open gallery image",
+              "closeLabel": "Close gallery",
+              "previousLabel": "Previous image",
+              "nextLabel": "Next image",
+              "images": [
+                { "id": "gallery-kitchen", "image": "/gallery/1.webp", "imageAlt": "Bright modern kitchen with a central island" },
+                { "id": "gallery-villa", "image": "/gallery/2.webp", "imageAlt": "Contemporary luxury villa with landscaped gardens" },
+                { "id": "gallery-living-room", "image": "/gallery/3.webp", "imageAlt": "Elegant neutral living room interior" },
+                { "id": "gallery-lounge", "image": "/gallery/4.webp", "imageAlt": "Comfortable modern lounge with natural light" },
+                { "id": "gallery-bedroom", "image": "/gallery/5.webp", "imageAlt": "Premium bedroom with balcony view" },
+                { "id": "gallery-city-view", "image": "/gallery/6.webp", "imageAlt": "Bright apartment overlooking the city" },
+                { "id": "gallery-family-home", "image": "/gallery/7.webp", "imageAlt": "Spacious family house surrounded by trees" },
+                { "id": "gallery-pool", "image": "/gallery/8.webp", "imageAlt": "Luxury home with a private swimming pool" },
+                { "id": "gallery-minimal-living", "image": "/gallery/9.webp", "imageAlt": "Minimal modern living room in soft neutral colors" }
+              ]
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "FourHomelessServices1": {
+              "subtitle": "Our Services",
+              "title1": "Our Main",
+              "title2": "Focus",
+              "description": "We provide complete real estate solutions to help you buy, rent or sell properties with ease and confidence.",
+              "linkText": "Learn More",
+              "services": [
+                {
+                  "id": "service-buy-home",
+                  "title": "Buy",
+                  "highlightedTitle": "a Home",
+                  "description": "Find your dream home from a wide range of premium properties in the best locations that match your lifestyle and budget.",
+                  "image": "/service/1.webp",
+                  "imageAlt": "Modern luxury home available to buy",
+                  "icon": "FaHome",
+                  "url": "/services/buy-a-home"
+                },
+                {
+                  "id": "service-rent-home",
+                  "title": "Rent",
+                  "highlightedTitle": "a Home",
+                  "description": "Choose from a variety of rental properties in prime areas, offering comfort, convenience and great value.",
+                  "image": "/service/2.webp",
+                  "imageAlt": "Premium apartment interior available to rent",
+                  "icon": "FaKey",
+                  "url": "/services/rent-a-home"
+                },
+                {
+                  "id": "service-sell-home",
+                  "title": "Sell",
+                  "highlightedTitle": "a Home",
+                  "description": "Get the best value for your property with our expert guidance and hassle-free selling process.",
+                  "image": "/service/3.webp",
+                  "imageAlt": "Modern luxury property ready for sale",
+                  "icon": "FaHandshake",
+                  "url": "/services/sell-a-home"
+                }
+              ]
+            }
+          }
+        },
+        "PropertyServices": {
+          "variants": {
+            "FourHomelessPropertyServices1": {
+              "subtitle": "OUR SERVICES",
+              "title1": "Our Main",
+              "highlightedTitle": "Focus",
+              "description": "We provide complete real estate solutions to help you buy, rent or sell properties with ease and confidence.",
+              "linkText": "Learn More",
+              "detailSubtitle": "SERVICE DETAILS",
+              "services": [
+                {
+                  "id": "buy-a-home", "title": "Buy", "highlightedTitle": "a Home", "description": "Find your dream home from a wide range of premium properties in the best locations that match your lifestyle and budget.", "image": "/service/1.webp", "imageAlt": "Modern luxury home available to buy", "icon": "FaHome", "url": "/services/buy-a-home",
+                  "detail": { "title1": "Buy", "highlightedTitle": "a Home", "introduction": "Our home buying service helps you discover, compare and secure the right property with expert support at every stage.", "overviewTitle": "A Smarter Way to Buy Your Home", "overviewText": "From understanding your budget to shortlisting locations, arranging visits and reviewing documents, our team makes the complete buying journey clear and convenient.", "closingText": [{ "id": "buy-closing-1", "text": "We focus on properties that fit your lifestyle, financial plans and long-term goals." }, { "id": "buy-closing-2", "text": "With transparent guidance and local market knowledge, you can move forward with complete confidence." }] }
+                },
+                {
+                  "id": "rent-a-home", "title": "Rent", "highlightedTitle": "a Home", "description": "Choose from a variety of rental properties in prime areas, offering comfort, convenience and great value.", "image": "/service/2.webp", "imageAlt": "Premium apartment interior available to rent", "icon": "FaKey", "url": "/services/rent-a-home",
+                  "detail": { "title1": "Rent", "highlightedTitle": "a Home", "introduction": "Find a comfortable rental home in the right neighborhood with a lease that suits your needs and timeline.", "overviewTitle": "Simple and Reliable Rental Support", "overviewText": "We help tenants compare verified homes, schedule property visits, understand rental terms and complete documentation without unnecessary delays.", "closingText": [{ "id": "rent-closing-1", "text": "Our rental specialists match your priorities with suitable homes across well-connected locations." }, { "id": "rent-closing-2", "text": "Every step is managed with clear communication for a smooth move-in experience." }] }
+                },
+                {
+                  "id": "sell-a-home", "title": "Sell", "highlightedTitle": "a Home", "description": "Get the best value for your property with our expert guidance and hassle-free selling process.", "image": "/service/3.webp", "imageAlt": "Modern luxury property ready for sale", "icon": "FaHandshake", "url": "/services/sell-a-home",
+                  "detail": { "title1": "Sell", "highlightedTitle": "a Home", "introduction": "Position your property effectively and connect with serious buyers through our complete home selling service.", "overviewTitle": "Professional Support for Better Results", "overviewText": "We combine realistic pricing, strong presentation, targeted promotion and buyer coordination to help you achieve a successful sale.", "closingText": [{ "id": "sell-closing-1", "text": "Our team manages enquiries, visits and negotiations while keeping you informed throughout the process." }, { "id": "sell-closing-2", "text": "The result is a transparent and well-managed sale focused on the best possible value." }] }
+                },
+                {
+                  "id": "property-investment", "title": "Invest in", "highlightedTitle": "Property", "description": "Build your wealth with high-potential real estate investments and long-term returns.", "image": "/service/4.webp", "imageAlt": "Premium residential development for property investment", "icon": "FaChartLine", "url": "/services/property-investment",
+                  "detail": { "title1": "Property", "highlightedTitle": "Investment", "introduction": "Build a purposeful property portfolio with opportunities selected around growth, rental demand and financial goals.", "overviewTitle": "Investment Decisions Backed by Insight", "overviewText": "We review location trends, project quality, expected returns and risk factors to help you choose suitable residential and commercial investments.", "closingText": [{ "id": "investment-closing-1", "text": "Every recommendation is aligned with your budget, preferred horizon and income expectations." }, { "id": "investment-closing-2", "text": "Our research-led approach helps you invest with greater clarity and confidence." }] }
+                },
+                {
+                  "id": "property-management", "title": "Property", "highlightedTitle": "Management", "description": "Let us handle the details with professional property management services for a hassle-free experience.", "image": "/service/5.webp", "imageAlt": "Well maintained modern apartment interior", "icon": "FaTasks", "url": "/services/property-management",
+                  "detail": { "title1": "Property", "highlightedTitle": "Management", "introduction": "Our property management services take the stress out of real estate ownership by handling tenants, rent, maintenance and regular coordination.", "overviewTitle": "Comprehensive Property Management Solutions", "overviewText": "From finding reliable tenants and managing leases to inspections, maintenance coordination and reporting, our team protects your investment and keeps it performing well.", "closingText": [{ "id": "management-closing-1", "text": "We focus on transparency, timely communication and personalized service for every property owner." }, { "id": "management-closing-2", "text": "Whether you own one residence or a portfolio, our flexible management strategy delivers long-term peace of mind." }] }
+                },
+                {
+                  "id": "commercial-properties", "title": "Commercial", "highlightedTitle": "Properties", "description": "Explore premium commercial spaces for your business, from offices to retail outlets in the best locations.", "image": "/service/6.webp", "imageAlt": "Modern commercial office space", "icon": "FaBuilding", "url": "/services/commercial-properties",
+                  "detail": { "title1": "Commercial", "highlightedTitle": "Properties", "introduction": "Discover commercial spaces that support your operations, customer reach and long-term business growth.", "overviewTitle": "Spaces Designed Around Business Goals", "overviewText": "We assist with offices, retail outlets and investment-grade commercial assets across established and emerging business districts.", "closingText": [{ "id": "commercial-closing-1", "text": "Our specialists evaluate access, visibility, infrastructure and commercial potential before recommending a space." }, { "id": "commercial-closing-2", "text": "You receive practical guidance from initial search through negotiation and documentation." }] }
+                },
+                {
+                  "id": "land-and-plots", "title": "Land &", "highlightedTitle": "Plots", "description": "Discover prime land and plots for residential or commercial development in rapidly growing locations.", "image": "/service/7.webp", "imageAlt": "Open land parcel marked for development", "icon": "FaMapMarkerAlt", "url": "/services/land-and-plots",
+                  "detail": { "title1": "Land &", "highlightedTitle": "Plots", "introduction": "Explore verified land and plotted developments selected for accessibility, future potential and practical use.", "overviewTitle": "Find the Right Foundation for Your Plans", "overviewText": "We help buyers assess location, surrounding development, property documents and suitability for residential or commercial requirements.", "closingText": [{ "id": "land-closing-1", "text": "Every opportunity is reviewed carefully so you can understand its strengths and important considerations." }, { "id": "land-closing-2", "text": "Our support makes plot selection and purchase more organized, transparent and secure." }] }
+                },
+                {
+                  "id": "new-developments", "title": "New", "highlightedTitle": "Developments", "description": "Explore newly launched residential and commercial projects with modern amenities and great investment opportunities.", "image": "/service/8.webp", "imageAlt": "New residential development surrounded by landscaping", "icon": "FaCity", "url": "/services/new-developments",
+                  "detail": { "title1": "New", "highlightedTitle": "Developments", "introduction": "Get early access to newly launched projects offering contemporary planning, useful amenities and future growth potential.", "overviewTitle": "Discover Promising New Projects", "overviewText": "We compare builders, locations, configurations, launch benefits and delivery timelines to help you select the right development.", "closingText": [{ "id": "development-closing-1", "text": "Our project insights help homebuyers and investors understand every option before making a commitment." }, { "id": "development-closing-2", "text": "We remain available through booking, documentation and the important stages that follow." }] }
+                },
+                {
+                  "id": "property-consultation", "title": "Property", "highlightedTitle": "Consultation", "description": "Get expert advice and personalized solutions for all your real estate needs.", "image": "/service/9.webp", "imageAlt": "Comfortable living room representing property consultation", "icon": "FaUserTie", "url": "/services/property-consultation",
+                  "detail": { "title1": "Property", "highlightedTitle": "Consultation", "introduction": "Make informed real estate decisions with personalized advice shaped around your needs, budget and priorities.", "overviewTitle": "Clear Guidance for Every Property Decision", "overviewText": "Our consultants help you compare choices, understand market conditions and plan the next step whether you are buying, selling, renting or investing.", "closingText": [{ "id": "consultation-closing-1", "text": "We simplify complex information and give you an honest view of the opportunities available." }, { "id": "consultation-closing-2", "text": "With practical support and responsive communication, you can approach every decision confidently." }] }
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "FourHomelessTestimonials1": {
+              "subtitle": "TESTIMONIALS",
+              "title1": "What Our Clients",
+              "title2": "Say",
+              "description": "Real stories from happy homeowners who found their perfect property with us.",
+              "backgroundImage": "/property/3.webp",
+              "backgroundImageAlt": "Modern luxury property behind client testimonials",
+              "previousLabel": "Previous testimonials",
+              "nextLabel": "Next testimonials",
+              "slideLabel": "Show testimonial",
+              "testimonials": [
+                {
+                  "id": "testimonial-rohit-mehta",
+                  "name": "Rohit Mehta",
+                  "location": "Homeowner, Mumbai",
+                  "quote": "The team was extremely professional and helped me find the perfect home within my budget. Their guidance throughout the process made everything smooth and stress-free.",
+                  "rating": 5,
+                  "avatar": "/team/1.webp"
+                },
+                {
+                  "id": "testimonial-priya-sharma",
+                  "name": "Priya Sharma",
+                  "location": "Investor, Bangalore",
+                  "quote": "Excellent service and support. They understood my requirements and showed me the best options in the right locations.",
+                  "rating": 5,
+                  "avatar": "/team/2.webp"
+                },
+                {
+                  "id": "testimonial-amit-verma",
+                  "name": "Amit Verma",
+                  "location": "Homebuyer, Delhi",
+                  "quote": "Highly professional and knowledgeable team. I am very satisfied with their service and would definitely recommend them.",
+                  "rating": 5,
+                  "avatar": "/team/3.webp"
+                },
+                {
+                  "id": "testimonial-neha-kapoor",
+                  "name": "Neha Kapoor",
+                  "location": "Homeowner, Pune",
+                  "quote": "From property visits to the final paperwork, every step was handled with care. The entire experience was simple and transparent.",
+                  "rating": 5,
+                  "avatar": "/team/4.webp"
+                },
+                {
+                  "id": "testimonial-vikram-singh",
+                  "name": "Vikram Singh",
+                  "location": "Investor, Gurgaon",
+                  "quote": "Their local market knowledge helped me choose a property with strong long-term value. I appreciated the honest and practical advice.",
+                  "rating": 5,
+                  "avatar": "/team/5.webp"
+                },
+                {
+                  "id": "testimonial-ananya-patel",
+                  "name": "Ananya Patel",
+                  "location": "Homebuyer, Hyderabad",
+                  "quote": "I found a beautiful home that matched my family's needs. The team stayed responsive and supportive throughout the complete journey.",
+                  "rating": 5,
+                  "avatar": "/team/6.webp"
+                }
+              ]
+            }
+          }
+        },
+        "TestimonialGrid": {
+          "variants": {
+            "FourHomelessTestimonialGrid1": {
+              "subtitle": "Testimonials",
+              "title1": "What Our Clients Say",
+              "title2": "About Us",
+              "description": "Trusted by thousands of investors for a smarter and better trading experience.",
+              "testimonials": [
+                {
+                  "id": "testimonial-grid-rohit-mehta",
+                  "name": "Rohit Mehta",
+                  "location": "Active Investor",
+                  "quote": "4homeless has made investing simple and convenient. Their platform is easy to use and the support team is always helpful. Highly recommended!",
+                  "rating": 5,
+                  "avatar": "/team/1.webp"
+                },
+                {
+                  "id": "testimonial-grid-priya-sharma",
+                  "name": "Priya Sharma",
+                  "location": "Equity Trader",
+                  "quote": "Great trading experience with excellent research and advisory support. The platform gives me confidence to make better decisions.",
+                  "rating": 5,
+                  "avatar": "/team/2.webp"
+                },
+                {
+                  "id": "testimonial-grid-amit-verma",
+                  "name": "Amit Verma",
+                  "location": "Long-term Investor",
+                  "quote": "The 4homeless team provides valuable market insights and timely guidance. It has been a great platform for my long-term investment journey.",
+                  "rating": 5,
+                  "avatar": "/team/3.webp"
+                },
+                {
+                  "id": "testimonial-grid-neha-kapoor",
+                  "name": "Neha Kapoor",
+                  "location": "Mutual Fund Investor",
+                  "quote": "The investment guidance is clear, practical and easy to understand. I feel more confident about building a balanced portfolio for the future.",
+                  "rating": 5,
+                  "avatar": "/team/4.webp"
+                },
+                {
+                  "id": "testimonial-grid-vikram-singh",
+                  "name": "Vikram Singh",
+                  "location": "Derivatives Trader",
+                  "quote": "Fast execution, useful research reports and responsive client support make 4homeless a dependable partner for my trading needs.",
+                  "rating": 5,
+                  "avatar": "/team/5.webp"
+                },
+                {
+                  "id": "testimonial-grid-ananya-patel",
+                  "name": "Ananya Patel",
+                  "location": "New Investor",
+                  "quote": "Opening my account and starting my first investment was smooth and secure. The team supported me throughout the entire process.",
+                  "rating": 5,
+                  "avatar": "/team/6.webp"
+                },
+                {
+                  "id": "testimonial-grid-arjun-khanna",
+                  "name": "Arjun Khanna",
+                  "location": "Portfolio Investor",
+                  "quote": "The platform combines useful market information with straightforward tools that make portfolio decisions easier and more confident.",
+                  "rating": 5,
+                  "avatar": "/team/1.webp"
+                },
+                {
+                  "id": "testimonial-grid-meera-joshi",
+                  "name": "Meera Joshi",
+                  "location": "Growth Investor",
+                  "quote": "4homeless offers professional guidance and dependable support. The experience has helped me stay focused on my long-term financial goals.",
+                  "rating": 5,
+                  "avatar": "/team/2.webp"
+                },
+                {
+                  "id": "testimonial-grid-rahul-saxena",
+                  "name": "Rahul Saxena",
+                  "location": "Active Trader",
+                  "quote": "Research insights are timely and easy to follow. I appreciate the transparent approach and quick assistance whenever I need support.",
+                  "rating": 5,
+                  "avatar": "/team/3.webp"
+                }
+              ]
+            }
+          }
+        },
+        "PropertyBlogs": {
+          "variants": {
+            "FourHomelessPropertyBlogs1": {
+              "subtitle": "OUR BLOG",
+              "title1": "Latest Articles &",
+              "highlightedTitle": "Tips",
+              "description": "Stay updated with expert advice, market insights and helpful tips for your real estate journey.",
+              "authorPrefix": "By",
+              "readMoreText": "Read More",
+              "viewAllText": "View All Blogs",
+              "viewAllUrl": "/blog",
+              "itemsPerPage": 9,
+              "paginationLabel": "Blog page",
+              "pagination": [
+                { "id": "blog-page-1", "label": "1", "page": 1 },
+                { "id": "blog-page-2", "label": "2", "page": 2 }
+              ],
+              "categoriesTitle": "Property Categories",
+              "categories": [
+                { "id": "blog-category-buying", "label": "Buying Guide", "count": "3 articles", "url": "/blog" },
+                { "id": "blog-category-interior", "label": "Interior Design", "count": "2 articles", "url": "/blog" },
+                { "id": "blog-category-investment", "label": "Investment", "count": "2 articles", "url": "/blog" },
+                { "id": "blog-category-maintenance", "label": "Home Maintenance", "count": "2 articles", "url": "/blog" },
+                { "id": "blog-category-market", "label": "Market Trends", "count": "2 articles", "url": "/blog" },
+                { "id": "blog-category-selling", "label": "Selling Tips", "count": "1 article", "url": "/blog" }
+              ],
+              "featuredListingsTitle": "Featured Listings",
+              "featuredListings": [
+                { "id": "featured-golf-course", "title": "Golf Course Road", "price": "₹2,45,00,000", "details": "3–5 BHK · Apartments", "image": "/property/1.webp", "imageAlt": "Luxury home on Golf Course Road", "url": "/properties/property-golf-course-road" },
+                { "id": "featured-whitefield", "title": "Whitefield", "price": "₹1,85,00,000", "details": "2–4 BHK · Apartments", "image": "/property/2.webp", "imageAlt": "Premium apartment in Whitefield", "url": "/properties/property-whitefield" },
+                { "id": "featured-baner", "title": "Baner", "price": "₹3,75,00,000", "details": "3–5 BHK · Villas", "image": "/property/3.webp", "imageAlt": "Modern villa in Baner", "url": "/properties/property-baner" }
+              ],
+              "posts": [
+                {
+                  "id": "tips-for-buying-first-home", "category": "Buying Guide", "title": "5 Important Tips for Buying Your First Home", "description": "Buying your first home is an exciting milestone. Use these expert tips to make the right decision and invest wisely.", "date": "12 Aug 2024", "image": "/blog/1.webp", "imageAlt": "Modern luxury home for a first-time buyer", "url": "/blog/tips-for-buying-first-home",
+                  "author": { "id": "blog-author-amit", "name": "Amit Sharma", "role": "Real Estate Expert", "image": "/team/1.webp", "imageAlt": "Amit Sharma" },
+                  "detail": { "readTime": "5 Min Read", "introText": "Buying a home is one of life's biggest decisions. Careful planning and research can make the process smoother and help you choose a place that supports your future.", "sections": [{ "id": "first-home-budget", "title": "1. Set a Realistic Budget", "text": "Review the complete cost of ownership, including registration, maintenance and interior expenses, before deciding what you can comfortably afford." }, { "id": "first-home-location", "title": "2. Choose the Right Location", "text": "Compare connectivity, schools, healthcare, daily conveniences and future development because location strongly influences lifestyle and long-term value." }, { "id": "first-home-builder", "title": "3. Check the Builder and Documents", "text": "Study the developer's history and verify approvals, ownership records and purchase documents before committing." }], "quote": "A home is not just a place to live; it is a foundation for a better tomorrow.", "closingText": "With proper research and trusted guidance, you can find a home that meets your expectations and provides lasting value." }
+                },
+                {
+                  "id": "interior-design-trends", "category": "Home Decor", "title": "Top Interior Design Trends for Modern Homes", "description": "Discover the latest interior design trends that make your home stylish, comfortable and functional.", "date": "08 Aug 2024", "image": "/blog/2.webp", "imageAlt": "Elegant modern living room interior", "url": "/blog/interior-design-trends",
+                  "author": { "id": "blog-author-priya", "name": "Priya Mehta", "role": "Interior Design Specialist", "image": "/team/2.webp", "imageAlt": "Priya Mehta" },
+                  "detail": { "readTime": "6 Min Read", "introText": "Modern interiors balance beauty with practical everyday living. The right materials, colors and layouts can make every room feel more welcoming.", "sections": [{ "id": "interior-natural", "title": "Bring Natural Elements Indoors", "text": "Wood, stone, indoor plants and warm neutral colors create a calm environment and add timeless character." }, { "id": "interior-flexible", "title": "Plan Flexible Spaces", "text": "Choose furniture and layouts that allow rooms to support work, relaxation and entertaining without feeling crowded." }, { "id": "interior-lighting", "title": "Layer Your Lighting", "text": "Combine daylight, ambient lighting and focused fixtures to improve comfort and highlight the best features of your home." }], "quote": "Good interior design makes a beautiful home feel effortless to live in.", "closingText": "Choose trends that reflect your personality and improve the way you use your home rather than following every passing style." }
+                },
+                {
+                  "id": "smart-real-estate-investment", "category": "Investment", "title": "Why Real Estate Is a Smart Long-Term Investment", "description": "Real estate remains a reliable investment option when chosen with the right research and long-term strategy.", "date": "20 Jul 2024", "image": "/blog/3.webp", "imageAlt": "Premium residential development for investment", "url": "/blog/smart-real-estate-investment",
+                  "author": { "id": "blog-author-rahul", "name": "Rahul Verma", "role": "Investment Consultant", "image": "/team/3.webp", "imageAlt": "Rahul Verma" },
+                  "detail": { "readTime": "7 Min Read", "introText": "Property can combine potential appreciation with rental income, making it a valuable part of a patient and balanced investment plan.", "sections": [{ "id": "investment-location", "title": "Study the Location's Growth", "text": "Infrastructure, employment, transport and social development can strengthen future demand and property value." }, { "id": "investment-returns", "title": "Evaluate Real Returns", "text": "Compare purchase cost, rental income, maintenance, taxes and expected appreciation instead of relying only on headline prices." }, { "id": "investment-horizon", "title": "Keep a Long-Term View", "text": "Quality real estate often performs best when investors allow time for the location and surrounding development to mature." }], "quote": "The best property investment is one supported by research, patience and a clear purpose.", "closingText": "Work with dependable professionals, verify every document and choose an opportunity that fits your financial goals." }
+                },
+                {
+                  "id": "essential-home-maintenance", "category": "Home Maintenance", "title": "Essential Home Maintenance Tips for a Long-Lasting Property", "description": "Regular maintenance keeps your property safe, beautiful and valuable over the years.", "date": "15 Jul 2024", "image": "/blog/4.webp", "imageAlt": "Modern kitchen maintained in excellent condition", "url": "/blog/essential-home-maintenance",
+                  "author": { "id": "blog-author-neha", "name": "Neha Kapoor", "role": "Property Manager", "image": "/team/4.webp", "imageAlt": "Neha Kapoor" },
+                  "detail": { "readTime": "5 Min Read", "introText": "A consistent maintenance routine prevents small problems from becoming expensive repairs and keeps daily living comfortable.", "sections": [{ "id": "maintenance-inspection", "title": "Inspect Important Systems Regularly", "text": "Check plumbing, electrical points, air conditioning and signs of moisture at planned intervals." }, { "id": "maintenance-exterior", "title": "Protect Exterior Surfaces", "text": "Keep roofs, walls, windows and drainage clear so weather does not cause avoidable damage." }, { "id": "maintenance-records", "title": "Maintain Service Records", "text": "Document repairs, warranties and scheduled servicing to make future maintenance easier to manage." }], "quote": "Small maintenance habits today protect your home's comfort and value tomorrow.", "closingText": "Create a simple seasonal checklist and address issues early to preserve your property for the long term." }
+                },
+                {
+                  "id": "real-estate-market-trends", "category": "Market Trends", "title": "Real Estate Market Trends to Watch This Year", "description": "Stay informed about market movements, buyer preferences and opportunities across growing locations.", "date": "10 Jul 2024", "image": "/blog/5.webp", "imageAlt": "Family home in a growing residential market", "url": "/blog/real-estate-market-trends",
+                  "author": { "id": "blog-author-karan", "name": "Karan Singh", "role": "Market Analyst", "image": "/team/5.webp", "imageAlt": "Karan Singh" },
+                  "detail": { "readTime": "6 Min Read", "introText": "Understanding market direction helps buyers, sellers and investors make decisions with better timing and realistic expectations.", "sections": [{ "id": "market-demand", "title": "Demand Is Moving Toward Connected Neighborhoods", "text": "Buyers continue to value easy access to workplaces, transport, education and daily services." }, { "id": "market-amenities", "title": "Useful Amenities Matter More", "text": "Well-designed shared spaces, security, energy efficiency and flexible home layouts are increasingly important." }, { "id": "market-research", "title": "Local Research Remains Essential", "text": "City-wide averages can hide major differences, so compare recent activity within the exact neighborhood you are considering." }], "quote": "Strong decisions come from understanding both the wider market and the local street.", "closingText": "Follow verified data and compare similar properties before deciding when and where to act." }
+                },
+                {
+                  "id": "sell-property-faster", "category": "Selling Tips", "title": "How to Sell Your Property Faster and at the Best Price", "description": "Use practical preparation, pricing and presentation strategies to attract serious buyers.", "date": "05 Jul 2024", "image": "/blog/6.webp", "imageAlt": "Bright living room prepared for a property sale", "url": "/blog/sell-property-faster",
+                  "author": { "id": "blog-author-anjali", "name": "Anjali Gupta", "role": "Real Estate Advisor", "image": "/team/6.webp", "imageAlt": "Anjali Gupta" },
+                  "detail": { "readTime": "5 Min Read", "introText": "A well-prepared property and realistic strategy can shorten the selling process while protecting the value of your home.", "sections": [{ "id": "selling-price", "title": "Set a Market-Based Price", "text": "Compare recent nearby sales and current competition to choose a price that attracts qualified interest." }, { "id": "selling-presentation", "title": "Present the Home at Its Best", "text": "Declutter, complete visible repairs and use bright professional photographs that show space clearly." }, { "id": "selling-response", "title": "Respond Quickly to Buyers", "text": "Organized visits, clear information and timely follow-up help serious buyers make decisions confidently." }], "quote": "The right first impression creates interest; the right strategy converts it into a sale.", "closingText": "Partner with an experienced advisor to coordinate promotion, negotiations and documentation from start to finish." }
+                },
+                {
+                  "id": "choose-property-for-lifestyle", "category": "Buying Guide", "title": "Choosing the Right Property for Your Lifestyle", "description": "Learn which location, layout and amenities will support your everyday routine and future plans.", "date": "28 Jun 2024", "image": "/blog/7.webp", "imageAlt": "Contemporary property suited to modern family living", "url": "/blog/choose-property-for-lifestyle",
+                  "author": { "id": "blog-author-vikram", "name": "Vikram Patel", "role": "Property Consultant", "image": "/team/3.webp", "imageAlt": "Vikram Patel" },
+                  "detail": { "readTime": "6 Min Read", "introText": "A property should support the way you live today while giving you room to adapt in the years ahead.", "sections": [{ "id": "lifestyle-routine", "title": "Map Your Daily Routine", "text": "Consider commute, school, shopping, recreation and family support before choosing a neighborhood." }, { "id": "lifestyle-layout", "title": "Choose a Practical Layout", "text": "Focus on usable space, storage, privacy and natural light rather than size alone." }, { "id": "lifestyle-future", "title": "Think About Future Needs", "text": "A flexible extra room, accessibility and nearby services can keep the home useful as circumstances change." }], "quote": "The right home should fit your life, not force your life to fit around it.", "closingText": "Prioritize the features you use every day and separate genuine needs from optional extras." }
+                },
+                {
+                  "id": "small-space-interior-ideas", "category": "Interior Tips", "title": "Small Space Interior Design Ideas for Modern Homes", "description": "Make compact rooms feel brighter, more organized and more comfortable with smart design choices.", "date": "18 Jun 2024", "image": "/blog/8.webp", "imageAlt": "Bright compact apartment with efficient interior design", "url": "/blog/small-space-interior-ideas",
+                  "author": { "id": "blog-author-kavya", "name": "Kavya Nair", "role": "Interior Designer", "image": "/team/6.webp", "imageAlt": "Kavya Nair" },
+                  "detail": { "readTime": "5 Min Read", "introText": "Thoughtful storage, proportion and light can make a compact home feel open without sacrificing personality.", "sections": [{ "id": "small-multifunction", "title": "Use Multi-Functional Furniture", "text": "Storage beds, extendable tables and modular seating allow each area to serve more than one purpose." }, { "id": "small-vertical", "title": "Use Vertical Space", "text": "Tall shelving and wall-mounted storage keep the floor clearer and draw the eye upward." }, { "id": "small-light", "title": "Keep Light Moving", "text": "Pale colors, mirrors and simple window treatments help natural light reach deeper into the room." }], "quote": "A small home feels generous when every element earns its place.", "closingText": "Keep circulation clear and choose a few coordinated materials to create a calm, cohesive interior." }
+                },
+                {
+                  "id": "latest-real-estate-developments", "category": "Real Estate News", "title": "Latest Real Estate Developments and Projects", "description": "Explore new projects, emerging destinations and opportunities in high-growth markets.", "date": "10 Jun 2024", "image": "/blog/9.webp", "imageAlt": "New luxury residential project at sunset", "url": "/blog/latest-real-estate-developments",
+                  "author": { "id": "blog-author-sandeep", "name": "Sandeep Rao", "role": "Real Estate Journalist", "image": "/team/1.webp", "imageAlt": "Sandeep Rao" },
+                  "detail": { "readTime": "7 Min Read", "introText": "New developments can offer modern planning and early opportunities, but buyers should compare every project carefully.", "sections": [{ "id": "development-builder", "title": "Review the Developer's Record", "text": "Study completed projects, delivery timelines, construction quality and resident feedback." }, { "id": "development-location", "title": "Understand the Location Plan", "text": "Look beyond current surroundings and review confirmed transport, commercial and social infrastructure." }, { "id": "development-terms", "title": "Compare Launch Terms", "text": "Examine pricing, payment schedules, specifications and possession commitments before booking." }], "quote": "A promising launch becomes a sound choice only after careful verification.", "closingText": "Compare projects on fundamentals rather than promotional offers and seek professional advice when needed." }
+                },
+                {
+                  "id": "complete-rental-guide", "category": "Rental Guide", "title": "A Complete Guide to Renting Your Next Home", "description": "Understand budgets, inspections and lease terms before choosing your next rental property.", "date": "02 Jun 2024", "image": "/blog/1.webp", "imageAlt": "Modern home available for rent", "url": "/blog/complete-rental-guide",
+                  "author": { "id": "blog-author-meera", "name": "Meera Joshi", "role": "Rental Consultant", "image": "/team/4.webp", "imageAlt": "Meera Joshi" },
+                  "detail": { "readTime": "5 Min Read", "introText": "A successful rental search begins with clear priorities and ends with a lease you fully understand.", "sections": [{ "id": "rental-budget", "title": "Set Your Complete Monthly Budget", "text": "Include maintenance, utilities, parking and travel costs along with the monthly rent." }, { "id": "rental-inspection", "title": "Inspect the Property Carefully", "text": "Check appliances, water supply, storage, security and existing damage before moving in." }, { "id": "rental-lease", "title": "Read Every Lease Term", "text": "Confirm deposit, notice period, maintenance responsibility and renewal conditions in writing." }], "quote": "The best rental is one that works for both your lifestyle and your monthly plan.", "closingText": "Document the property's condition and keep all agreements and payment records organized." }
+                },
+                {
+                  "id": "property-documents-checklist", "category": "Buying Guide", "title": "Property Documents Every Buyer Should Verify", "description": "Protect your purchase by checking ownership, approvals and important transaction records.", "date": "24 May 2024", "image": "/blog/2.webp", "imageAlt": "Modern property associated with purchase documentation", "url": "/blog/property-documents-checklist",
+                  "author": { "id": "blog-author-rohan", "name": "Rohan Kapoor", "role": "Property Advisor", "image": "/team/5.webp", "imageAlt": "Rohan Kapoor" },
+                  "detail": { "readTime": "6 Min Read", "introText": "Document verification is essential for confirming ownership, approvals and the seller's right to complete the transaction.", "sections": [{ "id": "documents-title", "title": "Verify Ownership and Title", "text": "Review the title chain, sale deed and encumbrance information with qualified professional support." }, { "id": "documents-approval", "title": "Check Project Approvals", "text": "Confirm sanctioned plans, completion status and relevant regulatory registrations." }, { "id": "documents-payment", "title": "Keep a Complete Payment Record", "text": "Use documented payment channels and retain receipts, agreements and official correspondence." }], "quote": "Careful paperwork is one of the strongest protections a property buyer can have.", "closingText": "Do not rush document review, and seek legal advice whenever a record or condition is unclear." }
+                },
+                {
+                  "id": "improve-home-value", "category": "Home Maintenance", "title": "Simple Improvements That Increase Your Home's Value", "description": "Focus on practical upgrades that improve presentation, comfort and buyer appeal.", "date": "16 May 2024", "image": "/blog/3.webp", "imageAlt": "Beautiful residential property with valuable upgrades", "url": "/blog/improve-home-value",
+                  "author": { "id": "blog-author-sneha", "name": "Sneha Reddy", "role": "Residential Consultant", "image": "/team/2.webp", "imageAlt": "Sneha Reddy" },
+                  "detail": { "readTime": "5 Min Read", "introText": "The most effective upgrades improve condition, functionality and first impressions without unnecessary over-investment.", "sections": [{ "id": "value-repairs", "title": "Complete Visible Repairs", "text": "Fix leaks, cracks, damaged fittings and worn finishes before considering decorative changes." }, { "id": "value-kitchen", "title": "Refresh Key Living Areas", "text": "Thoughtful updates to kitchens, bathrooms and lighting often have the strongest effect on buyer perception." }, { "id": "value-curb", "title": "Improve the First Impression", "text": "A clean entrance, fresh paint and simple landscaping make the property feel cared for immediately." }], "quote": "Value grows when improvements solve real needs and make the home easier to enjoy.", "closingText": "Plan upgrades around the condition of the property and the expectations of buyers in your local market." }
+                }
+              ]
+            }
+          }
+        },
+        "whyChooseUs": {
+          "variants": {
+            "FourHomelessWhyChooseUs1": {
+              "subtitle": "WHY CHOOSE US",
+              "title1": "Your Trusted Partner",
+              "title2": "in Real Estate",
+              "description": "We are committed to providing the best real estate solutions with complete transparency, expert guidance and personalized support to help you find the perfect property.",
+              "features": [
+                {
+                  "id": "why-dream-home",
+                  "icon": "FaHome",
+                  "title": "Find Your Dream Home",
+                  "description": "Explore a wide range of residential and commercial properties that match your lifestyle and budget."
+                },
+                {
+                  "id": "why-trusted",
+                  "icon": "FaHandshake",
+                  "title": "Trusted by Thousands",
+                  "description": "Years of experience and a growing community of happy clients who trust us for their real estate needs."
+                },
+                {
+                  "id": "why-financing",
+                  "icon": "FaHandHoldingUsd",
+                  "title": "Easy & Flexible Financing",
+                  "description": "Get the best financing options with expert guidance and a hassle-free process."
+                },
+                {
+                  "id": "why-support",
+                  "icon": "FaHeadset",
+                  "title": "24/7 Support",
+                  "description": "Our dedicated team is always available to assist you at every step of your property journey."
+                }
+              ],
+              "imageMain": "/choose/choose_us.webp",
+              "imageAlt": "Modern luxury home presented by 4homeless"
+            },
+            "FourHomelessAboutWhyChooseUs1": {
+              "subtitle": "WHY CHOOSE US",
+              "title1": "Your Trusted Partner",
+              "title2": "in Real Estate",
+              "description": "We are committed to providing the best real estate solutions with complete transparency, expert guidance and personalized support to help you find the perfect property.",
+              "features": [
+                {
+                  "id": "about-why-dream-home",
+                  "icon": "FaHome",
+                  "title": "Find Your Dream Home",
+                  "description": "Explore a wide range of residential and commercial properties that match your lifestyle and budget."
+                },
+                {
+                  "id": "about-why-trusted",
+                  "icon": "FaHandshake",
+                  "title": "Trusted by Thousands",
+                  "description": "Years of experience and a growing community of happy clients who trust us for their real estate needs."
+                },
+                {
+                  "id": "about-why-financing",
+                  "icon": "FaHandHoldingUsd",
+                  "title": "Easy & Flexible Financing",
+                  "description": "Get the best financing options with expert guidance and a hassle-free process."
+                },
+                {
+                  "id": "about-why-support",
+                  "icon": "FaHeadset",
+                  "title": "24/7 Support",
+                  "description": "Our dedicated team is always available to assist you at every step of your property journey."
+                }
+              ],
+              "imageMain": "/choose/choose_us.webp",
+              "imageAlt": "Modern luxury home presented by 4homeless"
+            }
+          }
+        },
+        "OurProperties": {
+          "variants": {
+            "FourHomelessOurProperties1": {
+              "subtitle": "OUR PROPERTIES",
+              "title1": "Explore Properties",
+              "title2": "By Location",
+              "description": "Discover a wide range of premium properties in the most sought-after locations.",
+              "viewText": "View Property",
+              "previousLabel": "Show previous properties",
+              "nextLabel": "Show next properties",
+              "slideLabel": "Show property slide",
+              "itemsPerPage": 6,
+              "paginationLabel": "Show property page",
+              "pagination": [
+                {
+                  "id": "property-page-1",
+                  "label": "1",
+                  "page": 1
+                },
+                {
+                  "id": "property-page-2",
+                  "label": "2",
+                  "page": 2
+                }
+              ],
+              "detailUI": {
+                "featuredLabel": "Featured",
+                "viewAllPhotosText": "View All Photos",
+                "previousPhotoLabel": "Show previous property photo",
+                "nextPhotoLabel": "Show next property photo",
+                "closeGalleryLabel": "Close property photo gallery",
+                "scheduleButtonText": "Schedule a Visit",
+                "scheduleButtonUrl": "/book-a-visit",
+                "descriptionTitle": "Description",
+                "detailsTitle": "Property Detail",
+                "factsTitle": "Facts and Features",
+                "detailLabels": {
+                  "propertyId": "Property ID",
+                  "location": "Location",
+                  "propertyType": "Property Type",
+                  "totalArea": "Total Area",
+                  "floor": "Floor No.",
+                  "bedrooms": "Bedrooms",
+                  "bathrooms": "Bathrooms",
+                  "balcony": "Balcony",
+                  "parking": "Parking",
+                  "yearBuilt": "Year Built",
+                  "status": "Property Status"
+                },
+                "factLabels": {
+                  "livingRoom": { "title": "Living Room", "icon": "FaCouch" },
+                  "bedrooms": { "title": "Bedrooms", "icon": "FaBed" },
+                  "bathrooms": { "title": "Bathrooms", "icon": "FaBath" },
+                  "kitchen": { "title": "Kitchen", "icon": "FaUtensils" },
+                  "diningArea": { "title": "Dining Area", "icon": "FaChair" },
+                  "balcony": { "title": "Balcony", "icon": "FaBuilding" },
+                  "parking": { "title": "Parking", "icon": "FaCar" },
+                  "security": { "title": "Security", "icon": "FaShieldAlt" }
+                },
+                "form": {
+                  "title": "Enquire About This Property",
+                  "namePlaceholder": "Your Name*",
+                  "emailPlaceholder": "Your Email*",
+                  "phonePlaceholder": "Your Phone*",
+                  "messagePlaceholder": "Your Message...",
+                  "buttonText": "Send Message",
+                  "successMessage": "Thank you. Your property enquiry has been submitted successfully."
+                }
+              },
+              "properties": [
+                {
+                  "id": "property-golf-course-road",
+                  "image": "/property/1.webp",
+                  "imageAlt": "Luxury modern villa on Golf Course Road",
+                  "propertyCount": "3 Properties",
+                  "propertyCountIcon": "FaHome",
+                  "location": "Gurgaon, Haryana",
+                  "locationIcon": "FaMapMarkerAlt",
+                  "title": "Golf Course Road",
+                  "features": [
+                    {
+                      "id": "golf-course-bedrooms",
+                      "icon": "FaBed",
+                      "label": "3-5 BHK"
+                    },
+                    {
+                      "id": "golf-course-area",
+                      "icon": "FaRegSquare",
+                      "label": "1,500+ Sq.Ft."
+                    },
+                    {
+                      "id": "golf-course-type",
+                      "icon": "FaBuilding",
+                      "label": "Apartments"
+                    }
+                  ],
+                  "url": "/properties/property-golf-course-road",
+                  "detail": {
+                    "status": "For Sale",
+                    "category": "Residential",
+                    "publishedDate": "May 18, 2024",
+                    "comments": "25 Comments",
+                    "price": "₹2,45,00,000",
+                    "description": "Discover an elegant residence on Golf Course Road, designed for spacious and comfortable modern living. The property offers bright interiors, premium finishes, landscaped surroundings and excellent connectivity to business districts, schools, hospitals and shopping destinations.",
+                    "propertyType": "Apartment",
+                    "totalArea": "1,500+ Sq.Ft.",
+                    "bedrooms": "3-5 Bedrooms",
+                    "bathrooms": "4 Bathrooms",
+                    "yearBuilt": "2022",
+                    "floor": "8th Floor",
+                    "balcony": "2 Balconies",
+                    "parking": "1 Covered Parking",
+                    "livingRoom": "1 Spacious Living Room",
+                    "kitchen": "1 Modular Kitchen",
+                    "diningArea": "1 Dining Area",
+                    "security": "24/7 Security"
+                  }
+                },
+                {
+                  "id": "property-whitefield",
+                  "image": "/property/2.webp",
+                  "imageAlt": "Premium apartment interior in Whitefield",
+                  "propertyCount": "5 Properties",
+                  "propertyCountIcon": "FaHome",
+                  "location": "Bangalore, Karnataka",
+                  "locationIcon": "FaMapMarkerAlt",
+                  "title": "Whitefield",
+                  "features": [
+                    {
+                      "id": "whitefield-bedrooms",
+                      "icon": "FaBed",
+                      "label": "2-4 BHK"
+                    },
+                    {
+                      "id": "whitefield-area",
+                      "icon": "FaRegSquare",
+                      "label": "1,000+ Sq.Ft."
+                    },
+                    {
+                      "id": "whitefield-type",
+                      "icon": "FaBuilding",
+                      "label": "Apartments"
+                    }
+                  ],
+                  "url": "/properties/property-whitefield",
+                  "detail": {
+                    "status": "For Sale",
+                    "category": "Luxury",
+                    "publishedDate": "June 02, 2024",
+                    "comments": "18 Comments",
+                    "price": "₹1,85,00,000",
+                    "description": "This premium Whitefield apartment combines refined interiors with panoramic city views. Thoughtfully planned living spaces, quality fittings and access to major technology parks make it an excellent home for professionals and growing families.",
+                    "propertyType": "Apartment",
+                    "totalArea": "1,000+ Sq.Ft.",
+                    "bedrooms": "2-4 Bedrooms",
+                    "bathrooms": "3 Bathrooms",
+                    "yearBuilt": "2023",
+                    "floor": "12th Floor",
+                    "balcony": "2 Balconies",
+                    "parking": "1 Covered Parking",
+                    "livingRoom": "1 Bright Living Room",
+                    "kitchen": "1 Modern Kitchen",
+                    "diningArea": "1 Dining Area",
+                    "security": "24/7 Security"
+                  }
+                },
+                {
+                  "id": "property-baner",
+                  "image": "/property/3.webp",
+                  "imageAlt": "Contemporary luxury villa in Baner",
+                  "propertyCount": "4 Properties",
+                  "propertyCountIcon": "FaHome",
+                  "location": "Pune, Maharashtra",
+                  "locationIcon": "FaMapMarkerAlt",
+                  "title": "Baner",
+                  "features": [
+                    {
+                      "id": "baner-bedrooms",
+                      "icon": "FaBed",
+                      "label": "3-5 BHK"
+                    },
+                    {
+                      "id": "baner-area",
+                      "icon": "FaRegSquare",
+                      "label": "2,000+ Sq.Ft."
+                    },
+                    {
+                      "id": "baner-type",
+                      "icon": "FaHome",
+                      "label": "Villas"
+                    }
+                  ],
+                  "url": "/properties/property-baner",
+                  "detail": {
+                    "status": "For Sale",
+                    "category": "Villa",
+                    "publishedDate": "June 15, 2024",
+                    "comments": "32 Comments",
+                    "price": "₹3,75,00,000",
+                    "description": "A contemporary villa in Baner offering generous rooms, landscaped outdoor areas and warm modern interiors. Its peaceful setting and easy access to workplaces, dining and entertainment create a balanced premium lifestyle.",
+                    "propertyType": "Villa",
+                    "totalArea": "2,000+ Sq.Ft.",
+                    "bedrooms": "3-5 Bedrooms",
+                    "bathrooms": "4 Bathrooms",
+                    "yearBuilt": "2021",
+                    "floor": "2 Floors",
+                    "balcony": "3 Balconies",
+                    "parking": "2 Covered Parking",
+                    "livingRoom": "1 Spacious Living Room",
+                    "kitchen": "1 Modular Kitchen",
+                    "diningArea": "1 Dining Area",
+                    "security": "Gated Security"
+                  }
+                },
+                {
+                  "id": "property-dwarka-expressway",
+                  "image": "/property/4.webp",
+                  "imageAlt": "Modern residential property near Dwarka Expressway",
+                  "propertyCount": "6 Properties",
+                  "propertyCountIcon": "FaHome",
+                  "location": "Gurgaon, Haryana",
+                  "locationIcon": "FaMapMarkerAlt",
+                  "title": "Dwarka Expressway",
+                  "features": [
+                    {
+                      "id": "dwarka-bedrooms",
+                      "icon": "FaBed",
+                      "label": "2-4 BHK"
+                    },
+                    {
+                      "id": "dwarka-area",
+                      "icon": "FaRegSquare",
+                      "label": "1,250+ Sq.Ft."
+                    },
+                    {
+                      "id": "dwarka-type",
+                      "icon": "FaBuilding",
+                      "label": "Residences"
+                    }
+                  ],
+                  "url": "/properties/property-dwarka-expressway",
+                  "detail": {
+                    "status": "For Sale",
+                    "category": "Residential",
+                    "publishedDate": "July 04, 2024",
+                    "comments": "21 Comments",
+                    "price": "₹1,65,00,000",
+                    "description": "Located near Dwarka Expressway, this modern residence provides efficient layouts, natural light and convenient access to Delhi and Gurgaon. Community amenities and strong infrastructure make it ideal for comfortable urban living.",
+                    "propertyType": "Residence",
+                    "totalArea": "1,250+ Sq.Ft.",
+                    "bedrooms": "2-4 Bedrooms",
+                    "bathrooms": "3 Bathrooms",
+                    "yearBuilt": "2023",
+                    "floor": "10th Floor",
+                    "balcony": "2 Balconies",
+                    "parking": "1 Covered Parking",
+                    "livingRoom": "1 Modern Living Room",
+                    "kitchen": "1 Fitted Kitchen",
+                    "diningArea": "1 Dining Area",
+                    "security": "24/7 Security"
+                  }
+                },
+                {
+                  "id": "property-indiranagar",
+                  "image": "/property/5.webp",
+                  "imageAlt": "Elegant premium home in Indiranagar",
+                  "propertyCount": "3 Properties",
+                  "propertyCountIcon": "FaHome",
+                  "location": "Bangalore, Karnataka",
+                  "locationIcon": "FaMapMarkerAlt",
+                  "title": "Indiranagar",
+                  "features": [
+                    {
+                      "id": "indiranagar-bedrooms",
+                      "icon": "FaBed",
+                      "label": "3-4 BHK"
+                    },
+                    {
+                      "id": "indiranagar-area",
+                      "icon": "FaRegSquare",
+                      "label": "1,800+ Sq.Ft."
+                    },
+                    {
+                      "id": "indiranagar-type",
+                      "icon": "FaHome",
+                      "label": "Villas"
+                    }
+                  ],
+                  "url": "/properties/property-indiranagar",
+                  "detail": {
+                    "status": "For Sale",
+                    "category": "Luxury",
+                    "publishedDate": "July 22, 2024",
+                    "comments": "16 Comments",
+                    "price": "₹4,20,00,000",
+                    "description": "An elegant Indiranagar villa featuring refined architecture, spacious bedrooms and inviting social areas. The prime neighborhood places boutique shopping, restaurants and everyday conveniences within easy reach.",
+                    "propertyType": "Villa",
+                    "totalArea": "1,800+ Sq.Ft.",
+                    "bedrooms": "3-4 Bedrooms",
+                    "bathrooms": "4 Bathrooms",
+                    "yearBuilt": "2022",
+                    "floor": "2 Floors",
+                    "balcony": "3 Balconies",
+                    "parking": "2 Covered Parking",
+                    "livingRoom": "1 Luxury Living Room",
+                    "kitchen": "1 Designer Kitchen",
+                    "diningArea": "1 Dining Area",
+                    "security": "Smart Security"
+                  }
+                },
+                {
+                  "id": "property-hinjewadi",
+                  "image": "/property/6.webp",
+                  "imageAlt": "Premium residential apartments in Hinjewadi",
+                  "propertyCount": "7 Properties",
+                  "propertyCountIcon": "FaHome",
+                  "location": "Pune, Maharashtra",
+                  "locationIcon": "FaMapMarkerAlt",
+                  "title": "Hinjewadi",
+                  "features": [
+                    {
+                      "id": "hinjewadi-bedrooms",
+                      "icon": "FaBed",
+                      "label": "2-3 BHK"
+                    },
+                    {
+                      "id": "hinjewadi-area",
+                      "icon": "FaRegSquare",
+                      "label": "950+ Sq.Ft."
+                    },
+                    {
+                      "id": "hinjewadi-type",
+                      "icon": "FaBuilding",
+                      "label": "Apartments"
+                    }
+                  ],
+                  "url": "/properties/property-hinjewadi",
+                  "detail": {
+                    "status": "For Sale",
+                    "category": "Apartment",
+                    "publishedDate": "August 08, 2024",
+                    "comments": "14 Comments",
+                    "price": "₹98,00,000",
+                    "description": "A well-planned Hinjewadi apartment created for convenient city living. Functional interiors, community amenities and proximity to leading technology campuses make this home a practical investment choice.",
+                    "propertyType": "Apartment",
+                    "totalArea": "950+ Sq.Ft.",
+                    "bedrooms": "2-3 Bedrooms",
+                    "bathrooms": "2 Bathrooms",
+                    "yearBuilt": "2024",
+                    "floor": "9th Floor",
+                    "balcony": "1 Balcony",
+                    "parking": "1 Covered Parking",
+                    "livingRoom": "1 Comfortable Living Room",
+                    "kitchen": "1 Modular Kitchen",
+                    "diningArea": "1 Dining Area",
+                    "security": "24/7 Security"
+                  }
+                },
+                {
+                  "id": "property-sector-150",
+                  "image": "/property/7.webp",
+                  "imageAlt": "Spacious luxury residence in Sector 150",
+                  "propertyCount": "4 Properties",
+                  "propertyCountIcon": "FaHome",
+                  "location": "Noida, Uttar Pradesh",
+                  "locationIcon": "FaMapMarkerAlt",
+                  "title": "Sector 150",
+                  "features": [
+                    {
+                      "id": "sector-150-bedrooms",
+                      "icon": "FaBed",
+                      "label": "3-4 BHK"
+                    },
+                    {
+                      "id": "sector-150-area",
+                      "icon": "FaRegSquare",
+                      "label": "1,600+ Sq.Ft."
+                    },
+                    {
+                      "id": "sector-150-type",
+                      "icon": "FaBuilding",
+                      "label": "Residences"
+                    }
+                  ],
+                  "url": "/properties/property-sector-150",
+                  "detail": {
+                    "status": "For Sale",
+                    "category": "Residential",
+                    "publishedDate": "August 19, 2024",
+                    "comments": "27 Comments",
+                    "price": "₹1,95,00,000",
+                    "description": "This spacious Sector 150 residence offers contemporary design, green surroundings and family-focused amenities. Excellent road connectivity and a peaceful location provide the right combination of convenience and comfort.",
+                    "propertyType": "Residence",
+                    "totalArea": "1,600+ Sq.Ft.",
+                    "bedrooms": "3-4 Bedrooms",
+                    "bathrooms": "3 Bathrooms",
+                    "yearBuilt": "2022",
+                    "floor": "14th Floor",
+                    "balcony": "2 Balconies",
+                    "parking": "2 Covered Parking",
+                    "livingRoom": "1 Spacious Living Room",
+                    "kitchen": "1 Modular Kitchen",
+                    "diningArea": "1 Dining Area",
+                    "security": "24/7 Security"
+                  }
+                },
+                {
+                  "id": "property-thane-west",
+                  "image": "/property/8.webp",
+                  "imageAlt": "Contemporary apartment property in Thane West",
+                  "propertyCount": "5 Properties",
+                  "propertyCountIcon": "FaHome",
+                  "location": "Mumbai, Maharashtra",
+                  "locationIcon": "FaMapMarkerAlt",
+                  "title": "Thane West",
+                  "features": [
+                    {
+                      "id": "thane-west-bedrooms",
+                      "icon": "FaBed",
+                      "label": "2-4 BHK"
+                    },
+                    {
+                      "id": "thane-west-area",
+                      "icon": "FaRegSquare",
+                      "label": "1,100+ Sq.Ft."
+                    },
+                    {
+                      "id": "thane-west-type",
+                      "icon": "FaBuilding",
+                      "label": "Apartments"
+                    }
+                  ],
+                  "url": "/properties/property-thane-west",
+                  "detail": {
+                    "status": "For Sale",
+                    "category": "Apartment",
+                    "publishedDate": "September 05, 2024",
+                    "comments": "19 Comments",
+                    "price": "₹1,45,00,000",
+                    "description": "A contemporary Thane West apartment with thoughtfully designed rooms and easy access to schools, hospitals, retail and transit. The development offers modern amenities for a relaxed and connected lifestyle.",
+                    "propertyType": "Apartment",
+                    "totalArea": "1,100+ Sq.Ft.",
+                    "bedrooms": "2-4 Bedrooms",
+                    "bathrooms": "3 Bathrooms",
+                    "yearBuilt": "2023",
+                    "floor": "11th Floor",
+                    "balcony": "2 Balconies",
+                    "parking": "1 Covered Parking",
+                    "livingRoom": "1 Modern Living Room",
+                    "kitchen": "1 Fitted Kitchen",
+                    "diningArea": "1 Dining Area",
+                    "security": "24/7 Security"
+                  }
+                },
+                {
+                  "id": "property-gachibowli",
+                  "image": "/property/9.webp",
+                  "imageAlt": "Luxury family home in Gachibowli",
+                  "propertyCount": "3 Properties",
+                  "propertyCountIcon": "FaHome",
+                  "location": "Hyderabad, Telangana",
+                  "locationIcon": "FaMapMarkerAlt",
+                  "title": "Gachibowli",
+                  "features": [
+                    {
+                      "id": "gachibowli-bedrooms",
+                      "icon": "FaBed",
+                      "label": "3-5 BHK"
+                    },
+                    {
+                      "id": "gachibowli-area",
+                      "icon": "FaRegSquare",
+                      "label": "1,900+ Sq.Ft."
+                    },
+                    {
+                      "id": "gachibowli-type",
+                      "icon": "FaHome",
+                      "label": "Villas"
+                    }
+                  ],
+                  "url": "/properties/property-gachibowli",
+                  "detail": {
+                    "status": "For Sale",
+                    "category": "Villa",
+                    "publishedDate": "September 18, 2024",
+                    "comments": "23 Comments",
+                    "price": "₹3,25,00,000",
+                    "description": "A premium Gachibowli villa designed for families seeking generous spaces and excellent city connectivity. Bright interiors, landscaped surroundings and proximity to major business hubs make it a compelling home and investment.",
+                    "propertyType": "Villa",
+                    "totalArea": "1,900+ Sq.Ft.",
+                    "bedrooms": "3-5 Bedrooms",
+                    "bathrooms": "4 Bathrooms",
+                    "yearBuilt": "2021",
+                    "floor": "2 Floors",
+                    "balcony": "3 Balconies",
+                    "parking": "2 Covered Parking",
+                    "livingRoom": "1 Spacious Living Room",
+                    "kitchen": "1 Modular Kitchen",
+                    "diningArea": "1 Dining Area",
+                    "security": "Gated Security"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "contact": {
+          "variants": {
+            "FourHomelessContact1": {
+              "backgroundImage": "/property/1.webp",
+              "backgroundImageAlt": "Luxury modern home beside the contact form",
+              "intro": {
+                "eyebrow": "GET IN TOUCH",
+                "title": "Contact",
+                "titleHighlight": "Us",
+                "description": "We're here to help you with all your real estate needs. Feel free to reach out to our team for any queries or assistance."
+              },
+              "form": {
+                "eyebrow": "SEND US A MESSAGE",
+                "title": "Get In",
+                "titleHighlight": "Touch",
+                "description": "Have a question or need expert advice? Fill out the form below and our team will get back to you shortly.",
+                "fullNamePlaceholder": "Your Name",
+                "phonePlaceholder": "Your Phone",
+                "emailPlaceholder": "Your Email",
+                "subjectPlaceholder": "Subject",
+                "messagePlaceholder": "Your Message",
+                "buttonText": "Send Message",
+                "successMessage": "Thank you. Your message has been submitted successfully."
+              },
+              "contactPanel": {
+                "eyebrow": "CONTACT INFORMATION",
+                "title1": "Contact",
+                "titleHighlight": "Us",
+                "description": "We're always ready to assist you. Reach out through the details below or send us a message using the contact form.",
+                "items": [
+                  {
+                    "id": "contact-info-address",
+                    "icon": "FaMapMarkerAlt",
+                    "title": "Address",
+                    "lines": [
+                      { "id": "contact-office-address", "text": "123 Main St, New York, NY, USA" }
+                    ],
+                    "url": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA"
+                  },
+                  {
+                    "id": "contact-info-phone",
+                    "icon": "FaPhoneAlt",
+                    "title": "Phone",
+                    "lines": [
+                      { "id": "contact-phone-number", "text": "+1 000000000" }
+                    ],
+                    "url": "tel:+1000000000"
+                  },
+                  {
+                    "id": "contact-info-email",
+                    "icon": "FaEnvelope",
+                    "title": "Email",
+                    "lines": [
+                      { "id": "contact-email-address", "text": "info@xyz.com" }
+                    ],
+                    "url": "mailto:info@xyz.com"
+                  },
+                  {
+                    "id": "contact-info-hours",
+                    "icon": "FaClock",
+                    "title": "Office Hours",
+                    "lines": [
+                      { "id": "contact-hours-weekday", "text": "Mon - Sat: 9:00 AM - 6:00 PM" },
+                      { "id": "contact-hours-sunday", "text": "Sunday: Closed" }
+                    ]
+                  }
+                ],
+                "socialTitle": "Follow Us",
+                "socialLinks": [
+                  { "id": "contact-social-facebook", "icon": "FaFacebookF", "label": "Facebook", "url": "https://facebook.com" },
+                  { "id": "contact-social-x", "icon": "FaXTwitter", "label": "X", "url": "https://x.com" },
+                  { "id": "contact-social-instagram", "icon": "FaInstagram", "label": "Instagram", "url": "https://instagram.com" },
+                  { "id": "contact-social-linkedin", "icon": "FaLinkedinIn", "label": "LinkedIn", "url": "https://linkedin.com" }
+                ]
+              },
+              "location": {
+                "eyebrow": "OUR LOCATION",
+                "title": "Visit Our Office",
+                "description": "123 Main St, New York, NY, USA",
+                "buttonText": "Get Directions",
+                "buttonUrl": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA",
+                "mapUrl": "https://www.google.com/maps?q=123+Main+St,+New+York,+NY,+USA&output=embed",
+                "mapTitle": "Map showing the 4homeless office location in New York"
+              }
+            }
+          }
+        },
+        "BookVisit": {
+          "variants": {
+            "FourHomelessBookVisit1": {
+              "eyebrow": "BOOK A VISIT",
+              "title1": "Schedule a",
+              "highlightedTitle": "Site Visit",
+              "title2": "Today",
+              "description": "Experience the property in person and get a better understanding of the space, location and surroundings. Fill out the form and our team will get in touch with you to confirm your visit.",
+              "image": "/property/1.webp",
+              "imageAlt": "Modern luxury property prepared for a scheduled site visit",
+              "form": {
+                "fullNamePlaceholder": "Your Name",
+                "emailPlaceholder": "Your Email",
+                "phonePlaceholder": "Your Phone",
+                "datePlaceholder": "Preferred Date",
+                "propertyPlaceholder": "Property Interested In",
+                "messagePlaceholder": "Additional Message (Optional)",
+                "buttonText": "Book a Visit",
+                "successMessage": "Thank you. Your site visit request has been submitted successfully.",
+                "properties": [
+                  { "id": "book-visit-golf-course-road", "label": "Golf Course Road", "value": "golf-course-road" },
+                  { "id": "book-visit-whitefield", "label": "Whitefield", "value": "whitefield" },
+                  { "id": "book-visit-baner", "label": "Baner", "value": "baner" },
+                  { "id": "book-visit-sector-62", "label": "Sector 62", "value": "sector-62" },
+                  { "id": "book-visit-gachibowli", "label": "Gachibowli", "value": "gachibowli" },
+                  { "id": "book-visit-thane-west", "label": "Thane West", "value": "thane-west" },
+                  { "id": "book-visit-dwarka-expressway", "label": "Dwarka Expressway", "value": "dwarka-expressway" },
+                  { "id": "book-visit-electronic-city", "label": "Electronic City", "value": "electronic-city" },
+                  { "id": "book-visit-hinjewadi", "label": "Hinjewadi", "value": "hinjewadi" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Topbar": "FourHomelessTopBar1",
+          "Header": "FourHomelessHeader1",
+          "Footer": "FourHomelessFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "HeroSection",
+                "component": "FourHomelessHero1"
+              },
+              {
+                "key": "AboutUs",
+                "component": "FourHomelessAboutUs1"
+              },
+              {
+                "key": "Services",
+                "component": "FourHomelessServices1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "FourHomelessWhyChooseUs1"
+              },
+              {
+                "key": "OurProperties",
+                "component": "FourHomelessOurProperties1"
+              },
+              {
+                "key": "Agents",
+                "component": "FourHomelessAgents1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "FourHomelessTestimonials1"
+              },
+              {
+                "key": "PropertyBlogs",
+                "component": "FourHomelessPropertyBlogs1"
+              }
+            ]
+          },
+          "about": {
+            "components": [
+              {
+                "key": "AboutUs",
+                "component": "FourHomelessAboutUs1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "FourHomelessAboutWhyChooseUs1"
+              },
+              {
+                "key": "Agents",
+                "component": "FourHomelessAgents1"
+              }
+            ]
+          },
+          "properties": {
+            "components": [
+              {
+                "key": "OurProperties",
+                "component": "FourHomelessOurProperties1"
+              }
+            ]
+          },
+          "propertyDetail": {
+            "components": [
+              {
+                "key": "OurProperties",
+                "component": "PropertyDetailContent"
+              }
+            ]
+          },
+          "agents": {
+            "components": [
+              {
+                "key": "Agents",
+                "component": "AgentGrid"
+              }
+            ]
+          },
+          "agentDetail": {
+            "components": [
+              {
+                "key": "Agents",
+                "component": "AgentDetailContent"
+              }
+            ]
+          },
+          "gallery": {
+            "components": [
+              {
+                "key": "Gallery",
+                "component": "FourHomelessGallery1"
+              }
+            ]
+          },
+          "testimonials": {
+            "components": [
+              {
+                "key": "TestimonialGrid",
+                "component": "FourHomelessTestimonialGrid1"
+              }
+            ]
+          },
+          "services": {
+            "components": [
+              {
+                "key": "PropertyServices",
+                "component": "FourHomelessPropertyServices1"
+              }
+            ]
+          },
+          "serviceDetail": {
+            "components": [
+              {
+                "key": "PropertyServices",
+                "component": "PropertyServiceDetailContent"
+              }
+            ]
+          },
+          "blog": {
+            "components": [
+              {
+                "key": "PropertyBlogs",
+                "component": "BlogGrid"
+              }
+            ]
+          },
+          "blogDetail": {
+            "components": [
+              {
+                "key": "PropertyBlogs",
+                "component": "PropertyBlogDetailContent"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "Contact",
+                "component": "FourHomelessContact1"
+              }
+            ]
+          },
+          "bookVisit": {
+            "components": [
+              {
+                "key": "BookVisit",
+                "component": "FourHomelessBookVisit1"
+              }
+            ]
+          },
+          "notFound": {
+            "components": [
+              {
+                "key": "NotFoundSection",
+                "component": "NotFoundSection"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "components": [
+        "TopBar",
+        "Header",
+        "HeroSection",
+        "AboutUs",
+        "Services",
+        "WhyChooseUs",
+        "OurPropertiesSection",
+        "AgentsSection",
+        "Testimonials",
+        "PropertyBlogsSection",
+        "Footer"
+      ]
+    },
+    "about": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "AboutUsSection",
+        "WhyChooseUsSection",
+        "AgentsSection",
+        "Footer"
+      ]
+    },
+    "properties": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "PropertyGrid",
+        "Footer"
+      ]
+    },
+    "properties/[id]": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "PropertyDetailContent",
+        "Footer"
+      ]
+    },
+    "agents": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "AgentGrid",
+        "Footer"
+      ]
+    },
+    "agents/[id]": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "AgentDetailContent",
+        "Footer"
+      ]
+    },
+    "gallery": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "GallerySection",
+        "Footer"
+      ]
+    },
+    "testimonials": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "TestimonialGrid",
+        "Footer"
+      ]
+    },
+    "services": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "PropertyServicesGrid",
+        "Footer"
+      ]
+    },
+    "services/[id]": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "PropertyServiceDetailContent",
+        "Footer"
+      ]
+    },
+    "blog": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "BlogGrid",
+        "Footer"
+      ]
+    },
+    "blog/[id]": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "PropertyBlogDetailContent",
+        "Footer"
+      ]
+    },
+    "contact": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "ContactSection",
+        "Footer"
+      ]
+    },
+    "book-a-visit": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "BookVisitSection",
+        "Footer"
+      ]
+    },
+    "not-found": {
+      "components": [
+        "TopBar",
+        "Header",
+        "NotFoundSection",
+        "Footer"
+      ]
+    }
+  }
+}
