@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --font-primary: var(--font-montserrat), sans-serif;
-  --font-heading: var(--font-montserrat), sans-serif;
+  --font-primary: 'Montserrat', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
 
   /* 4homeless global theme */
   --color-bg-main: #ffffff;

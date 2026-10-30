@@ -14,7 +14,7 @@ import {
   FaPhoneAlt,
 } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
-import { AgentDetailContentProps } from '@/types/templates.types';
+import { TeamDetailContentProps } from '@/types/templates.types';
 
 const renderIcon = (iconName: string) => {
   switch (iconName) {
@@ -32,10 +32,10 @@ const renderIcon = (iconName: string) => {
   }
 };
 
-export const AgentDetailContent = ({ data }: AgentDetailContentProps) => {
+export const TeamDetailContent = ({ data }: TeamDetailContentProps) => {
   if (!data) return null;
 
-  const { agent, ui } = data;
+  const { member, ui } = data;
 
   return (
     <section className="w-full bg-white py-8 lg:py-12">
@@ -49,12 +49,12 @@ export const AgentDetailContent = ({ data }: AgentDetailContentProps) => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-[340px_minmax(0,1fr)]">
           <aside className="overflow-hidden rounded-lg border border-[#eee7dc] bg-white shadow-[0_8px_24px_rgba(5,16,36,0.07)]">
             <div className="relative h-[430px] w-full bg-[#fdfaf6]">
-              <Image src={agent.image} alt={agent.imageAlt} fill priority sizes="(min-width: 1024px) 340px, 100vw" className="object-cover object-top" />
+              <Image src={member.image} alt={member.imageAlt} fill priority sizes="(min-width: 1024px) 340px, 100vw" className="object-cover object-top" />
             </div>
             <div className="p-6 text-center">
-              <h1 className="text-3xl font-extrabold text-[#051024]">{agent.name}</h1>
+              <h1 className="text-3xl font-extrabold text-[#051024]">{member.name}</h1>
               <span className="mx-auto mt-3 block h-px w-10 bg-[#c49250]" />
-              <p className="mt-3 text-sm font-bold uppercase tracking-wide text-[#c49250]">{agent.detail.practiceArea}</p>
+              <p className="mt-3 text-sm font-bold uppercase tracking-wide text-[#c49250]">{member.detail.practiceArea}</p>
               <div className="mt-5 flex items-center justify-center gap-3">
                 {ui.socialLinks.map((social) => (
                   <Link key={social.id} href={social.url} aria-label={social.label} className="flex h-10 w-10 items-center justify-center rounded-full bg-[#051024] text-white transition-colors duration-300 hover:bg-[#c49250]">
@@ -66,24 +66,24 @@ export const AgentDetailContent = ({ data }: AgentDetailContentProps) => {
           </aside>
 
           <div>
-            <p className="text-base leading-7 text-[#64748b] sm:text-lg">{agent.detail.about}</p>
+            <p className="text-base leading-7 text-[#64748b] sm:text-lg">{member.detail.about}</p>
 
             <div className="mt-5 grid grid-cols-1 border-y border-[#e5e7eb] md:grid-cols-2">
               <div className="flex items-start gap-4 py-4 md:border-r md:border-[#e5e7eb] md:pr-6">
                 <span className="mt-1 text-2xl text-[#d98909]">{renderIcon('FaMapMarkerAlt')}</span>
-                <div><p className="font-extrabold text-[#051024]">{ui.locationLabel}</p><p className="mt-1 text-[#64748b]">{agent.detail.address}</p></div>
+                <div><p className="font-extrabold text-[#051024]">{ui.locationLabel}</p><p className="mt-1 text-[#64748b]">{member.detail.address}</p></div>
               </div>
               <div className="flex items-start gap-4 border-t border-[#e5e7eb] py-4 md:border-t-0 md:pl-8">
                 <span className="mt-1 text-2xl text-[#d98909]">{renderIcon('FaPhoneAlt')}</span>
-                <div><p className="font-extrabold text-[#051024]">{ui.phoneLabel}</p><Link href={`tel:${agent.detail.phone}`} className="mt-1 block text-[#64748b] hover:text-[#c49250]">{agent.detail.phone}</Link></div>
+                <div><p className="font-extrabold text-[#051024]">{ui.phoneLabel}</p><Link href={`tel:${member.detail.phone}`} className="mt-1 block text-[#64748b] hover:text-[#c49250]">{member.detail.phone}</Link></div>
               </div>
               <div className="flex items-start gap-4 border-t border-[#e5e7eb] py-4 md:col-span-2">
                 <span className="mt-1 text-2xl text-[#d98909]">{renderIcon('FaBriefcase')}</span>
-                <div><p className="font-extrabold text-[#051024]">{ui.practiceAreaLabel}</p><p className="mt-1 text-[#64748b]">{agent.detail.practiceArea}</p></div>
+                <div><p className="font-extrabold text-[#051024]">{ui.practiceAreaLabel}</p><p className="mt-1 text-[#64748b]">{member.detail.practiceArea}</p></div>
               </div>
             </div>
 
-            <p className="mt-5 text-base leading-7 text-[#64748b] sm:text-lg">{agent.detail.experience}</p>
+            <p className="mt-5 text-base leading-7 text-[#64748b] sm:text-lg">{member.detail.experience}</p>
 
             <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
               {ui.services.map((service) => (
@@ -99,7 +99,7 @@ export const AgentDetailContent = ({ data }: AgentDetailContentProps) => {
               ))}
             </div>
 
-            <p className="mt-6 text-base leading-7 text-[#64748b] sm:text-lg">{agent.detail.closingText}</p>
+            <p className="mt-6 text-base leading-7 text-[#64748b] sm:text-lg">{member.detail.closingText}</p>
           </div>
         </div>
       </div>

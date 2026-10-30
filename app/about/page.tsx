@@ -6,7 +6,7 @@ import rawData from '@/data/templates.json';
 import { Breadcrumb } from '@/components/common/Breadcrumb';
 import { AboutUsSection } from '@/components/sections/AboutUsSection';
 import { WhyChooseUsSection } from '@/components/sections/WhyChooseUsSection';
-import { AgentsSection } from '@/components/sections/AgentsSection';
+import { TeamSection } from '@/components/sections/TeamSection';
 import { Footer } from '@/components/common/Footer';
 
 export const dynamic = 'force-dynamic';
@@ -27,7 +27,7 @@ export default function Page() {
       </div>
       <AboutUsSection data={sectionData.AboutUs?.variants?.FourHomelessAboutUs1} hideButton={true} />
       <WhyChooseUsSection data={sectionData.whyChooseUs?.variants?.FourHomelessAboutWhyChooseUs1} />
-      <AgentsSection data={sectionData.Agents?.variants?.FourHomelessAgents1} />
+      <TeamSection data={sectionData.Team?.variants?.FourHomelessTeam1} />
       <Footer data={commonData.Footer} />
     </main>
   );

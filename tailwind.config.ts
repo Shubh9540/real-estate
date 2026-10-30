@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-montserrat)'],
+        sans: ['Montserrat', 'sans-serif'],
       },
       colors: {
         primary: "var(--color-primary)",

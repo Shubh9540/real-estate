@@ -8,7 +8,7 @@ import { AboutUsSection } from '@/components/sections/AboutUsSection';
 import { ServicesSection } from '@/components/sections/ServicesSection';
 import { WhyChooseUsSection } from '@/components/sections/WhyChooseUsSection';
 import { OurPropertiesSection } from '@/components/sections/OurPropertiesSection';
-import { AgentsSection } from '@/components/sections/AgentsSection';
+import { TeamSection } from '@/components/sections/TeamSection';
 import { TestimonialSection } from '@/components/sections/TestimonialSection';
 import { PropertyBlogsSection } from '@/components/sections/PropertyBlogsSection';
 import { Footer } from '@/components/common/Footer';
@@ -34,7 +34,7 @@ export default function Home() {
       <ServicesSection data={sectionData.Services?.variants?.FourHomelessServices1} isSlider={true} />
       <WhyChooseUsSection data={sectionData.whyChooseUs?.variants?.FourHomelessWhyChooseUs1} />
       <OurPropertiesSection data={sectionData.OurProperties?.variants?.FourHomelessOurProperties1} />
-      <AgentsSection data={sectionData.Agents?.variants?.FourHomelessAgents1} />
+      <TeamSection data={sectionData.Team?.variants?.FourHomelessTeam1} />
       <TestimonialSection data={sectionData.Testimonials?.variants?.FourHomelessTestimonials1} />
       <PropertyBlogsSection data={sectionData.PropertyBlogs?.variants?.FourHomelessPropertyBlogs1} />
       <Footer data={commonData.Footer} />

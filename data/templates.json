@@ -92,9 +92,9 @@
           "url": "/contact"
         },
         {
-          "id": "company-agent",
-          "label": "Find an Agent",
-          "url": "/agents"
+          "id": "company-team",
+          "label": "Our Team",
+          "url": "/team"
         },
         {
           "id": "company-blog",
@@ -297,33 +297,33 @@
         }
       ]
     },
-    "agentsBreadcrumb": {
-      "title": "Our Agents",
+    "teamBreadcrumb": {
+      "title": "Our Team",
       "bgImage": "/main logo/breadcrumb.webp",
       "paths": [
         {
-          "id": "breadcrumb-agents-home",
+          "id": "breadcrumb-team-home",
           "label": "Home",
           "url": "/"
         },
         {
-          "id": "breadcrumb-agents-current",
-          "label": "Our Agents"
+          "id": "breadcrumb-team-current",
+          "label": "Our Team"
         }
       ]
     },
-    "agentDetailBreadcrumb": {
-      "title": "Agent Detail",
+    "teamDetailBreadcrumb": {
+      "title": "Team Member Detail",
       "bgImage": "/main logo/breadcrumb.webp",
       "paths": [
         {
-          "id": "breadcrumb-agent-detail-home",
+          "id": "breadcrumb-team-detail-home",
           "label": "Home",
           "url": "/"
         },
         {
-          "id": "breadcrumb-agent-detail-current",
-          "label": "Agent Detail"
+          "id": "breadcrumb-team-detail-current",
+          "label": "Team Detail"
         }
       ]
     },
@@ -506,9 +506,9 @@
                   "url": "/properties"
                 },
                 {
-                  "id": "nl-agents",
-                  "label": "Agents",
-                  "url": "/agents"
+                  "id": "nl-team",
+                  "label": "Team",
+                  "url": "/team"
                 },
                 {
                   "id": "nl-gallery",
@@ -593,42 +593,42 @@
             }
           }
         },
-        "Agents": {
+        "Team": {
           "variants": {
-            "FourHomelessAgents1": {
-              "subtitle": "OUR AGENTS",
+            "FourHomelessTeam1": {
+              "subtitle": "OUR TEAM",
               "title1": "Meet Our Expert",
-              "highlightedTitle": "Agents",
+              "highlightedTitle": "Team",
               "description": "Our experienced real estate professionals are here to help you find the perfect property with trusted guidance and personalized support.",
-              "viewAllText": "View All Agents",
-              "viewAllUrl": "/agents",
+              "viewAllText": "View All Team Members",
+              "viewAllUrl": "/team",
               "profileText": "View Profile",
               "contactText": "Contact",
               "itemsPerPage": 8,
-              "paginationLabel": "Agent page",
+              "paginationLabel": "Team page",
               "pagination": [
-                { "id": "agent-page-1", "label": "1", "page": 1 },
-                { "id": "agent-page-2", "label": "2", "page": 2 }
+                { "id": "team-page-1", "label": "1", "page": 1 },
+                { "id": "team-page-2", "label": "2", "page": 2 }
               ],
               "detailUI": {
                 "title1": "About Our",
-                "highlightedTitle": "Agent",
+                "highlightedTitle": "Team Member",
                 "locationLabel": "Location:",
                 "phoneLabel": "Phone:",
                 "practiceAreaLabel": "Practice Area:",
                 "socialLinks": [
-                  { "id": "agent-social-facebook", "icon": "FaFacebookF", "label": "Facebook", "url": "https://www.facebook.com" },
-                  { "id": "agent-social-twitter", "icon": "FaXTwitter", "label": "X", "url": "https://x.com" },
-                  { "id": "agent-social-linkedin", "icon": "FaLinkedinIn", "label": "LinkedIn", "url": "https://www.linkedin.com" },
-                  { "id": "agent-social-instagram", "icon": "FaInstagram", "label": "Instagram", "url": "https://www.instagram.com" }
+                  { "id": "team-social-facebook", "icon": "FaFacebookF", "label": "Facebook", "url": "https://www.facebook.com" },
+                  { "id": "team-social-twitter", "icon": "FaXTwitter", "label": "X", "url": "https://x.com" },
+                  { "id": "team-social-linkedin", "icon": "FaLinkedinIn", "label": "LinkedIn", "url": "https://www.linkedin.com" },
+                  { "id": "team-social-instagram", "icon": "FaInstagram", "label": "Instagram", "url": "https://www.instagram.com" }
                 ],
                 "services": [
-                  { "id": "agent-service-buying", "icon": "FaHome", "title": "Home Buying", "description": "Get expert guidance to find your dream home with the right location, best value and complete support throughout the buying process.", "linkText": "Read More", "url": "/services" },
-                  { "id": "agent-service-selling", "icon": "FaHandshake", "title": "Home Selling", "description": "Maximize the value of your property with our market expertise, strategic marketing and professional selling support.", "linkText": "Read More", "url": "/services" },
-                  { "id": "agent-service-escrow", "icon": "FaFileContract", "title": "Escrow Services", "description": "Ensure a safe, secure and hassle-free transaction with our reliable escrow services and complete transparency.", "linkText": "Read More", "url": "/contact" }
+                  { "id": "team-service-buying", "icon": "FaHome", "title": "Home Buying", "description": "Get expert guidance to find your dream home with the right location, best value and complete support throughout the buying process.", "linkText": "Read More", "url": "/services" },
+                  { "id": "team-service-selling", "icon": "FaHandshake", "title": "Home Selling", "description": "Maximize the value of your property with our market expertise, strategic marketing and professional selling support.", "linkText": "Read More", "url": "/services" },
+                  { "id": "team-service-escrow", "icon": "FaFileContract", "title": "Escrow Services", "description": "Ensure a safe, secure and hassle-free transaction with our reliable escrow services and complete transparency.", "linkText": "Read More", "url": "/contact" }
                 ]
               },
-              "agents": [
+              "team": [
                 {
                   "id": "agent-amit-sharma",
                   "category": "Residential",
@@ -643,7 +643,7 @@
                     { "id": "amit-rating", "label": "Client Rating", "value": "4.9", "icon": "FaRegStar" },
                     { "id": "amit-listings", "label": "Active Listings", "value": "35", "icon": "FaUserFriends" }
                   ],
-                  "profileUrl": "/agents/agent-amit-sharma",
+                  "profileUrl": "/team/agent-amit-sharma",
                   "contactUrl": "/contact",
                   "detail": {
                     "about": "Amit Sharma is a dedicated and experienced real estate professional with a strong focus on helping clients buy, sell and invest in properties. His client-first approach ensures a smooth, transparent and rewarding real estate experience.",
@@ -668,7 +668,7 @@
                     { "id": "priya-rating", "label": "Client Rating", "value": "4.8", "icon": "FaRegStar" },
                     { "id": "priya-listings", "label": "Active Listings", "value": "28", "icon": "FaUserFriends" }
                   ],
-                  "profileUrl": "/agents/agent-priya-mehta",
+                  "profileUrl": "/team/agent-priya-mehta",
                   "contactUrl": "/contact",
                   "detail": {
                     "about": "Priya Mehta helps buyers and investors discover exceptional luxury homes that match their lifestyle and long-term goals. She combines thoughtful service with detailed local market insight.",
@@ -693,7 +693,7 @@
                     { "id": "rahul-rating", "label": "Client Rating", "value": "4.9", "icon": "FaRegStar" },
                     { "id": "rahul-listings", "label": "Active Listings", "value": "42", "icon": "FaUserFriends" }
                   ],
-                  "profileUrl": "/agents/agent-rahul-verma",
+                  "profileUrl": "/team/agent-rahul-verma",
                   "contactUrl": "/contact",
                   "detail": {
                     "about": "Rahul Verma advises businesses and investors on commercial property opportunities across Bangalore. He is known for practical recommendations and strong transaction management.",
@@ -718,7 +718,7 @@
                     { "id": "neha-rating", "label": "Client Rating", "value": "4.7", "icon": "FaRegStar" },
                     { "id": "neha-listings", "label": "Active Listings", "value": "30", "icon": "FaUserFriends" }
                   ],
-                  "profileUrl": "/agents/agent-neha-kapoor",
+                  "profileUrl": "/team/agent-neha-kapoor",
                   "contactUrl": "/contact",
                   "detail": {
                     "about": "Neha Kapoor supports clients who want to build a balanced real estate portfolio through carefully selected residential and emerging-market investments.",
@@ -730,53 +730,53 @@
                   }
                 }
               ],
-              "additionalAgents": [
+              "additionalTeam": [
                 {
                   "id": "agent-karan-singh", "category": "New Development", "name": "Karan Singh", "role": "New Development Specialist", "location": "Pune, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/5.webp", "imageAlt": "Karan Singh, New Development Specialist",
                   "stats": [{ "id": "karan-properties", "label": "Properties Sold", "value": "85", "icon": "FaHome" }, { "id": "karan-rating", "label": "Client Rating", "value": "4.8", "icon": "FaRegStar" }, { "id": "karan-listings", "label": "Active Listings", "value": "25", "icon": "FaUserFriends" }],
-                  "profileUrl": "/agents/agent-karan-singh", "contactUrl": "/contact",
+                  "profileUrl": "/team/agent-karan-singh", "contactUrl": "/contact",
                   "detail": { "about": "Karan Singh works closely with buyers exploring newly launched and under-construction communities in Pune.", "address": "Baner, Pune, India", "phone": "+1 00000 00000", "practiceArea": "New Developments", "experience": "Karan combines project research, builder coordination and practical buying guidance to help clients choose promising new developments.", "closingText": "He keeps every client informed from project selection through documentation and possession." }
                 },
                 {
                   "id": "agent-sneha-reddy", "category": "Residential", "name": "Sneha Reddy", "role": "Residential Property Consultant", "location": "Chennai, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/6.webp", "imageAlt": "Sneha Reddy, Residential Property Consultant",
                   "stats": [{ "id": "sneha-properties", "label": "Properties Sold", "value": "98", "icon": "FaHome" }, { "id": "sneha-rating", "label": "Client Rating", "value": "4.9", "icon": "FaRegStar" }, { "id": "sneha-listings", "label": "Active Listings", "value": "33", "icon": "FaUserFriends" }],
-                  "profileUrl": "/agents/agent-sneha-reddy", "contactUrl": "/contact",
+                  "profileUrl": "/team/agent-sneha-reddy", "contactUrl": "/contact",
                   "detail": { "about": "Sneha Reddy helps families find comfortable residential properties in well-connected Chennai neighborhoods.", "address": "Adyar, Chennai, India", "phone": "+1 00000 00000", "practiceArea": "Residential Property", "experience": "Sneha understands the needs of first-time buyers and growing families, offering patient guidance and dependable local knowledge.", "closingText": "Her goal is to turn a complex home search into a simple and reassuring experience." }
                 },
                 {
                   "id": "agent-vikram-patel", "category": "Rental", "name": "Vikram Patel", "role": "Rental Property Specialist", "location": "Kolkata, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/1.webp", "imageAlt": "Vikram Patel, Rental Property Specialist",
                   "stats": [{ "id": "vikram-properties", "label": "Properties Sold", "value": "105", "icon": "FaHome" }, { "id": "vikram-rating", "label": "Client Rating", "value": "4.8", "icon": "FaRegStar" }, { "id": "vikram-listings", "label": "Active Listings", "value": "27", "icon": "FaUserFriends" }],
-                  "profileUrl": "/agents/agent-vikram-patel", "contactUrl": "/contact",
+                  "profileUrl": "/team/agent-vikram-patel", "contactUrl": "/contact",
                   "detail": { "about": "Vikram Patel connects tenants and property owners through efficient, transparent rental services.", "address": "Salt Lake, Kolkata, India", "phone": "+1 00000 00000", "practiceArea": "Rental Property", "experience": "Vikram manages rental searches, property visits and documentation with a practical understanding of both tenant and landlord needs.", "closingText": "He values fast communication and fair solutions that create lasting rental relationships." }
                 },
                 {
                   "id": "agent-anjali-gupta", "category": "Luxury", "name": "Anjali Gupta", "role": "Luxury Home Advisor", "location": "Jaipur, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/2.webp", "imageAlt": "Anjali Gupta, Luxury Home Advisor",
                   "stats": [{ "id": "anjali-properties", "label": "Properties Sold", "value": "140", "icon": "FaHome" }, { "id": "anjali-rating", "label": "Client Rating", "value": "4.9", "icon": "FaRegStar" }, { "id": "anjali-listings", "label": "Active Listings", "value": "38", "icon": "FaUserFriends" }],
-                  "profileUrl": "/agents/agent-anjali-gupta", "contactUrl": "/contact",
+                  "profileUrl": "/team/agent-anjali-gupta", "contactUrl": "/contact",
                   "detail": { "about": "Anjali Gupta curates distinctive luxury homes for clients seeking privacy, design and exceptional locations.", "address": "C-Scheme, Jaipur, India", "phone": "+1 00000 00000", "practiceArea": "Luxury Homes", "experience": "Anjali offers discreet advisory support for premium villas, estates and high-value residences with careful attention to every detail.", "closingText": "She creates a refined property experience shaped around each client's preferences and pace." }
                 },
                 {
                   "id": "agent-arjun-mehra", "category": "Commercial", "name": "Arjun Mehra", "role": "Commercial Investment Advisor", "location": "Gurgaon, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/3.webp", "imageAlt": "Arjun Mehra, Commercial Investment Advisor",
                   "stats": [{ "id": "arjun-properties", "label": "Properties Sold", "value": "132", "icon": "FaHome" }, { "id": "arjun-rating", "label": "Client Rating", "value": "4.8", "icon": "FaRegStar" }, { "id": "arjun-listings", "label": "Active Listings", "value": "31", "icon": "FaUserFriends" }],
-                  "profileUrl": "/agents/agent-arjun-mehra", "contactUrl": "/contact",
+                  "profileUrl": "/team/agent-arjun-mehra", "contactUrl": "/contact",
                   "detail": { "about": "Arjun Mehra helps investors identify commercial assets with sustainable demand and strong business potential.", "address": "Golf Course Road, Gurgaon, India", "phone": "+1 00000 00000", "practiceArea": "Commercial Investment", "experience": "Arjun evaluates office and retail opportunities through detailed market comparisons and financial planning.", "closingText": "His advice is grounded in research, transparency and a long-term view of investment performance." }
                 },
                 {
                   "id": "agent-meera-joshi", "category": "Residential", "name": "Meera Joshi", "role": "Home Buying Consultant", "location": "Ahmedabad, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/4.webp", "imageAlt": "Meera Joshi, Home Buying Consultant",
                   "stats": [{ "id": "meera-properties", "label": "Properties Sold", "value": "90", "icon": "FaHome" }, { "id": "meera-rating", "label": "Client Rating", "value": "4.7", "icon": "FaRegStar" }, { "id": "meera-listings", "label": "Active Listings", "value": "24", "icon": "FaUserFriends" }],
-                  "profileUrl": "/agents/agent-meera-joshi", "contactUrl": "/contact",
+                  "profileUrl": "/team/agent-meera-joshi", "contactUrl": "/contact",
                   "detail": { "about": "Meera Joshi guides homebuyers through property discovery, comparison and confident decision-making.", "address": "Satellite, Ahmedabad, India", "phone": "+1 00000 00000", "practiceArea": "Home Buying", "experience": "Meera combines neighborhood insight with a clear understanding of budgets, amenities and family priorities.", "closingText": "She is committed to helping every buyer find a home that feels right today and remains valuable tomorrow." }
                 },
                 {
                   "id": "agent-rohan-kapoor", "category": "Investment", "name": "Rohan Kapoor", "role": "Property Portfolio Consultant", "location": "Noida, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/5.webp", "imageAlt": "Rohan Kapoor, Property Portfolio Consultant",
                   "stats": [{ "id": "rohan-properties", "label": "Properties Sold", "value": "115", "icon": "FaHome" }, { "id": "rohan-rating", "label": "Client Rating", "value": "4.9", "icon": "FaRegStar" }, { "id": "rohan-listings", "label": "Active Listings", "value": "29", "icon": "FaUserFriends" }],
-                  "profileUrl": "/agents/agent-rohan-kapoor", "contactUrl": "/contact",
+                  "profileUrl": "/team/agent-rohan-kapoor", "contactUrl": "/contact",
                   "detail": { "about": "Rohan Kapoor creates focused property strategies for investors looking for growth, income and diversification.", "address": "Sector 62, Noida, India", "phone": "+1 00000 00000", "practiceArea": "Property Portfolio", "experience": "Rohan reviews market data, property fundamentals and client objectives before recommending suitable investments.", "closingText": "He helps clients make measured decisions and build real estate portfolios with purpose." }
                 },
                 {
                   "id": "agent-kavya-nair", "category": "Luxury", "name": "Kavya Nair", "role": "Premium Property Advisor", "location": "Kochi, India", "locationIcon": "FaMapMarkerAlt", "image": "/team/6.webp", "imageAlt": "Kavya Nair, Premium Property Advisor",
                   "stats": [{ "id": "kavya-properties", "label": "Properties Sold", "value": "88", "icon": "FaHome" }, { "id": "kavya-rating", "label": "Client Rating", "value": "4.8", "icon": "FaRegStar" }, { "id": "kavya-listings", "label": "Active Listings", "value": "22", "icon": "FaUserFriends" }],
-                  "profileUrl": "/agents/agent-kavya-nair", "contactUrl": "/contact",
+                  "profileUrl": "/team/agent-kavya-nair", "contactUrl": "/contact",
                   "detail": { "about": "Kavya Nair advises clients on premium waterfront homes, apartments and distinctive residential opportunities in Kochi.", "address": "Marine Drive, Kochi, India", "phone": "+1 00000 00000", "practiceArea": "Premium Property", "experience": "Kavya is valued for her calm communication, careful property curation and understanding of premium buyer expectations.", "closingText": "She delivers a personal, polished experience that keeps every important detail under control." }
                 }
               ]
@@ -1877,8 +1877,8 @@
                 "component": "FourHomelessOurProperties1"
               },
               {
-                "key": "Agents",
-                "component": "FourHomelessAgents1"
+                "key": "Team",
+                "component": "FourHomelessTeam1"
               },
               {
                 "key": "Testimonials",
@@ -1901,8 +1901,8 @@
                 "component": "FourHomelessAboutWhyChooseUs1"
               },
               {
-                "key": "Agents",
-                "component": "FourHomelessAgents1"
+                "key": "Team",
+                "component": "FourHomelessTeam1"
               }
             ]
           },
@@ -1922,19 +1922,19 @@
               }
             ]
           },
-          "agents": {
+          "team": {
             "components": [
               {
-                "key": "Agents",
-                "component": "AgentGrid"
+                "key": "Team",
+                "component": "TeamGrid"
               }
             ]
           },
-          "agentDetail": {
+          "teamDetail": {
             "components": [
               {
-                "key": "Agents",
-                "component": "AgentDetailContent"
+                "key": "Team",
+                "component": "TeamDetailContent"
               }
             ]
           },
@@ -2024,7 +2024,7 @@
         "Services",
         "WhyChooseUs",
         "OurPropertiesSection",
-        "AgentsSection",
+        "TeamSection",
         "Testimonials",
         "PropertyBlogsSection",
         "Footer"
@@ -2037,7 +2037,7 @@
         "Breadcrumb",
         "AboutUsSection",
         "WhyChooseUsSection",
-        "AgentsSection",
+        "TeamSection",
         "Footer"
       ]
     },
@@ -2059,21 +2059,21 @@
         "Footer"
       ]
     },
-    "agents": {
+    "team": {
       "components": [
         "TopBar",
         "Header",
         "Breadcrumb",
-        "AgentGrid",
+        "TeamGrid",
         "Footer"
       ]
     },
-    "agents/[id]": {
+    "team/[id]": {
       "components": [
         "TopBar",
         "Header",
         "Breadcrumb",
-        "AgentDetailContent",
+        "TeamDetailContent",
         "Footer"
       ]
     },

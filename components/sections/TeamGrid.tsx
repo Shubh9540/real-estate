@@ -4,7 +4,7 @@ import React, { useMemo, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaArrowRight, FaHome, FaMapMarkerAlt, FaUserFriends } from 'react-icons/fa';
-import { AgentGridProps } from '@/types/templates.types';
+import { TeamGridProps } from '@/types/templates.types';
 
 const renderIcon = (iconName: string) => {
   switch (iconName) {
@@ -19,17 +19,17 @@ const renderIcon = (iconName: string) => {
   }
 };
 
-export const AgentGrid = ({ data }: AgentGridProps) => {
+export const TeamGrid = ({ data }: TeamGridProps) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const allAgents = useMemo(
-    () => (data ? [...data.agents, ...data.additionalAgents] : []),
+  const allTeam = useMemo(
+    () => (data ? [...data.team, ...data.additionalTeam] : []),
     [data],
   );
 
-  if (!data || !allAgents.length || !data.pagination.length) return null;
+  if (!data || !allTeam.length || !data.pagination.length) return null;
 
   const startIndex = (currentPage - 1) * data.itemsPerPage;
-  const visibleAgents = allAgents.slice(startIndex, startIndex + data.itemsPerPage);
+  const visibleTeam = allTeam.slice(startIndex, startIndex + data.itemsPerPage);
 
   return (
     <section className="w-full bg-[#fdfaf6] py-8 lg:py-12">
@@ -51,25 +51,25 @@ export const AgentGrid = ({ data }: AgentGridProps) => {
         </div>
 
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {visibleAgents.map((agent) => (
-            <article key={agent.id} className="group overflow-hidden rounded-lg border border-[#eee7dc] bg-white shadow-[0_8px_24px_rgba(5,16,36,0.07)] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+          {visibleTeam.map((member) => (
+            <article key={member.id} className="group overflow-hidden rounded-lg border border-[#eee7dc] bg-white shadow-[0_8px_24px_rgba(5,16,36,0.07)] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
               <div className="relative h-64 overflow-hidden bg-[#fdfaf6]">
-                <Image src={agent.image} alt={agent.imageAlt} fill sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" className="object-cover object-top transition-transform duration-500 group-hover:scale-105" />
+                <Image src={member.image} alt={member.imageAlt} fill sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" className="object-cover object-top transition-transform duration-500 group-hover:scale-105" />
                 <span className="absolute left-3 top-3 rounded-full bg-white px-4 py-2 text-xs font-bold text-[#051024] shadow-md">
-                  {agent.category}
+                  {member.category}
                 </span>
               </div>
 
               <div className="p-4">
-                <h3 className="text-lg font-extrabold leading-tight text-[#051024]">{agent.name}</h3>
-                <p className="mt-1 text-sm text-[#6b7280]">{agent.role}</p>
+                <h3 className="text-lg font-extrabold leading-tight text-[#051024]">{member.name}</h3>
+                <p className="mt-1 text-sm text-[#6b7280]">{member.role}</p>
                 <div className="mt-2 flex items-center gap-2 text-sm text-[#6b7280]">
-                  <span className="text-[#c49250]">{renderIcon(agent.locationIcon)}</span>
-                  <span>{agent.location}</span>
+                  <span className="text-[#c49250]">{renderIcon(member.locationIcon)}</span>
+                  <span>{member.location}</span>
                 </div>
 
                 <div className="mt-4 grid grid-cols-3 divide-x divide-[#eee7dc] border-t border-[#eee7dc] pt-4">
-                  {agent.stats.map((stat) => (
+                  {member.stats.map((stat) => (
                     <div key={stat.id} className="min-w-0 px-2 text-center first:pl-0 last:pr-0">
                       <div className="flex items-center justify-center gap-2 text-[#c49250]">
                         {renderIcon(stat.icon)}
@@ -81,10 +81,10 @@ export const AgentGrid = ({ data }: AgentGridProps) => {
                 </div>
 
                 <div className="mt-5 grid grid-cols-2 gap-3">
-                  <Link href={agent.profileUrl} className="flex items-center justify-center rounded-md bg-[#c49250] px-3 py-3 text-center text-sm font-bold text-white transition-colors duration-300 hover:bg-[#051024]">
+                  <Link href={member.profileUrl} className="flex items-center justify-center rounded-md bg-[#c49250] px-3 py-3 text-center text-sm font-bold text-white transition-colors duration-300 hover:bg-[#051024]">
                     {data.profileText}
                   </Link>
-                  <Link href={agent.contactUrl} className="flex items-center justify-center gap-2 rounded-md border border-[#c49250] px-3 py-3 text-center text-sm font-bold text-[#c49250] transition-colors duration-300 hover:bg-[#c49250] hover:text-white">
+                  <Link href={member.contactUrl} className="flex items-center justify-center gap-2 rounded-md border border-[#c49250] px-3 py-3 text-center text-sm font-bold text-[#c49250] transition-colors duration-300 hover:bg-[#c49250] hover:text-white">
                     <span>{data.contactText}</span>
                     <FaArrowRight className="text-xs" />
                   </Link>

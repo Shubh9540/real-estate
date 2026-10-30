@@ -116,14 +116,14 @@ export interface AboutUsSectionProps {
   hideButton?: boolean;
 }
 
-export interface AgentStat {
+export interface TeamStat {
   id: string;
   label: string;
   value: string;
   icon: string;
 }
 
-export interface AgentDetailInfo {
+export interface TeamDetailInfo {
   about: string;
   address: string;
   phone: string;
@@ -132,7 +132,7 @@ export interface AgentDetailInfo {
   closingText: string;
 }
 
-export interface AgentDetailService {
+export interface TeamDetailService {
   id: string;
   icon: string;
   title: string;
@@ -141,14 +141,14 @@ export interface AgentDetailService {
   url: string;
 }
 
-export interface AgentSocialLink {
+export interface TeamSocialLink {
   id: string;
   icon: string;
   label: string;
   url: string;
 }
 
-export interface AgentItem {
+export interface TeamItem {
   id: string;
   category: string;
   name: string;
@@ -157,20 +157,20 @@ export interface AgentItem {
   locationIcon: string;
   image: string;
   imageAlt: string;
-  stats: AgentStat[];
+  stats: TeamStat[];
   profileUrl: string;
   contactUrl: string;
-  detail: AgentDetailInfo;
+  detail: TeamDetailInfo;
 }
 
-export interface AgentDetailUI {
+export interface TeamDetailUI {
   title1: string;
   highlightedTitle: string;
   locationLabel: string;
   phoneLabel: string;
   practiceAreaLabel: string;
-  socialLinks: AgentSocialLink[];
-  services: AgentDetailService[];
+  socialLinks: TeamSocialLink[];
+  services: TeamDetailService[];
 }
 
 export interface PaginationItem {
@@ -179,7 +179,7 @@ export interface PaginationItem {
   page: number;
 }
 
-export interface AgentsData {
+export interface TeamData {
   subtitle: string;
   title1: string;
   highlightedTitle: string;
@@ -188,32 +188,32 @@ export interface AgentsData {
   viewAllUrl: string;
   profileText: string;
   contactText: string;
-  agents: AgentItem[];
-  additionalAgents: AgentItem[];
+  team: TeamItem[];
+  additionalTeam: TeamItem[];
   itemsPerPage: number;
   paginationLabel: string;
   pagination: PaginationItem[];
-  detailUI: AgentDetailUI;
+  detailUI: TeamDetailUI;
 }
 
-export interface AgentsSectionProps {
-  data?: AgentsData;
+export interface TeamSectionProps {
+  data?: TeamData;
 }
 
-export interface AgentGridProps {
-  data?: AgentsData;
+export interface TeamGridProps {
+  data?: TeamData;
 }
 
-export interface AgentDetailPageData {
-  agent: AgentItem;
-  ui: AgentDetailUI;
+export interface TeamDetailPageData {
+  member: TeamItem;
+  ui: TeamDetailUI;
 }
 
-export interface AgentDetailContentProps {
-  data?: AgentDetailPageData;
+export interface TeamDetailContentProps {
+  data?: TeamDetailPageData;
 }
 
-export interface AgentDetailRouteProps {
+export interface TeamDetailRouteProps {
   params: Promise<{ id: string }>;
 }
 
@@ -763,8 +763,8 @@ export interface FourHomelessTemplateData {
     serviceDetailBreadcrumbs?: Record<string, BreadcrumbData>;
     contactBreadcrumb?: BreadcrumbData;
     bookVisitBreadcrumb?: BreadcrumbData;
-    agentsBreadcrumb?: BreadcrumbData;
-    agentDetailBreadcrumb?: BreadcrumbData;
+    teamBreadcrumb?: BreadcrumbData;
+    teamDetailBreadcrumb?: BreadcrumbData;
     galleryBreadcrumb?: BreadcrumbData;
     testimonialsBreadcrumb?: BreadcrumbData;
     blogsBreadcrumb?: BreadcrumbData;
@@ -780,7 +780,7 @@ export interface FourHomelessTemplateData {
         Header?: { variants?: { FourHomelessHeader1?: HeaderData } };
         Hero?: { variants?: { FourHomelessHero1?: HeroData } };
         AboutUs?: { variants?: { FourHomelessAboutUs1?: AboutUsData } };
-        Agents?: { variants?: { FourHomelessAgents1?: AgentsData } };
+        Team?: { variants?: { FourHomelessTeam1?: TeamData } };
         Gallery?: { variants?: { FourHomelessGallery1?: GalleryData } };
         Services?: { variants?: { FourHomelessServices1?: ServicesData } };
         PropertyServices?: { variants?: { FourHomelessPropertyServices1?: PropertyServicesData } };
